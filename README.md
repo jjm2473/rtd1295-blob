@@ -1,1 +1,1 @@
-# rtd1295-blob
+# rtd1295 openwrt packages

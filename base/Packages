@@ -1,0 +1,1007 @@
+Package: agetty
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 14793
+Filename: agetty_2.25.2-4_rtd1295.ipk
+Size: 15550
+MD5Sum: 942450be978b5c89ce429bb0999d6206
+SHA256sum: 9b6303afbaacaa1e6e093b3d9456ccd3f7e7e3766f644bd870c03bf27385dc0e
+Description:  agetty opens a tty port, prompts for a login name and invokes the
+ /bin/login command
+
+Package: blkid
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libblkid, libuuid
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 24811
+Filename: blkid_2.25.2-4_rtd1295.ipk
+Size: 25504
+MD5Sum: b1ca833291bda5292cd7af84fab018f2
+SHA256sum: 90407d468a337d4f2b09836cb59dfd3aae65bee05322754d33cf370049747e1e
+Description:  The blkid program is the command-line interface to working with the libblkid
+ library.
+
+Package: cal
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libncurses
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 14398
+Filename: cal_2.25.2-4_rtd1295.ipk
+Size: 15135
+MD5Sum: 6777d98160a1701dbbb48405598423d2
+SHA256sum: 581240fe440a5b65303976ceb15c2d95d06e7ef2c7049d04c8cfbe95915ce7e0
+Description:  cal displays a simple calendar
+
+Package: cfdisk
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libblkid, libncurses, libsmartcols
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 87509
+Filename: cfdisk_2.25.2-4_rtd1295.ipk
+Size: 88252
+MD5Sum: a454031d8349791e72ac2d557a5d4976
+SHA256sum: af27311e029ebe803922152ea2aedc0e90c51a058577ee6f42a8569fdc060d03
+Description:  cfdisk is a curses-based program for partitioning any hard disk drive
+
+Package: curl
+Version: 7.52.1-2
+Depends: libc, librt, libpthread, libcurl
+Source: /root/home/src/chaos_calmer/package/network/utils/curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 40597
+Filename: curl_7.52.1-2_rtd1295.ipk
+Size: 41197
+MD5Sum: 46ee13964e0221640405107e238ac0c2
+SHA256sum: b1b9feb6ff3f65aee7cc2e9c71d023432b757fd0bfa331dc51d21c5e44e4b6d1
+Description:  A client-side URL transfer utility
+
+Package: dmesg
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, librt
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 17254
+Filename: dmesg_2.25.2-4_rtd1295.ipk
+Size: 17986
+MD5Sum: e640affa9e55954a1176bc7cd23f939b
+SHA256sum: 03f079b53099cf859e5ee8ed7fd6fbed6f35bd02f231c15808c417b38e749faa
+Description:  dmesg  is used to examine or control the kernel ring buffer
+
+Package: fdisk
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libblkid, libsmartcols
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 89843
+Filename: fdisk_2.25.2-4_rtd1295.ipk
+Size: 90606
+MD5Sum: d150b32cb37a129d8f8af36292a78bd8
+SHA256sum: 2f315b30e8f7386e8a7074f32915aa039848e7516f2f0c60791f019ec7c5cc81
+Description:  a menu-driven program for creation and manipulation of partition tables
+
+Package: findfs
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libblkid
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 2830
+Filename: findfs_2.25.2-4_rtd1295.ipk
+Size: 3695
+MD5Sum: ac500422cd0bfc0837ce07f0ccbed83b
+SHA256sum: c07cd987502788cfe1f055cada0a515c0a5154a95c36b0237b77c0ac016b5fe5
+Description:  findfs will search the disks in the system looking for a filesystem which has
+ a label matching label or a UUID equal to uuid
+
+Package: flock
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 7653
+Filename: flock_2.25.2-4_rtd1295.ipk
+Size: 8457
+MD5Sum: be3ab088e26989312886d0054b0e2cf2
+SHA256sum: e7ed42df992416f8156f0c8da7527fcd7feb451b04dcd575f677fe8dc0e55a58
+Description:  manages flock locks from within shell scripts or the command line
+
+Package: getopt
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 5224
+Filename: getopt_2.25.2-4_rtd1295.ipk
+Size: 6042
+MD5Sum: e552b2dae94236579abea51f1c4613ee
+SHA256sum: f5db74c3fd01d885e48e09c6c578ce6608025e581fc06627ed65dbd91ff9037c
+Description:  getopt is used to break up (parse) options in command lines for easy parsing
+ by shell procedures, and to check for legal options
+
+Package: hwclock
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 15529
+Filename: hwclock_2.25.2-4_rtd1295.ipk
+Size: 16308
+MD5Sum: afe2a7fea40f58a4dd8352585187f2e8
+SHA256sum: 16662c1c5caaa16d78e6a9a0ce670975dd19734e3cf21194a5547a245b5c2535
+Description:  hwclock is a tool for accessing the Hardware Clock
+
+Package: ldconfig
+Version: 2.19-1
+Source: /root/home/src/chaos_calmer/package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: utils
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 263920
+Filename: ldconfig_2.19-1_rtd1295.ipk
+Size: 264289
+MD5Sum: 3292e3447543eeee3cd1e42ca2e39fda
+SHA256sum: 9f777661ca6842afe1cc01f8dbf675765fb6bb48cc0faf0efa77c7c4b885f2a8
+Description:  Shared library path configuration
+
+Package: ldd
+Version: 2.19-1
+Source: /root/home/src/chaos_calmer/package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: utils
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 2622
+Filename: ldd_2.19-1_rtd1295.ipk
+Size: 3407
+MD5Sum: 871692b6de4adee80ca9adf9cd7bd657
+SHA256sum: 946b0d2c5417eeab03f666086e7f2b40f0e83dcd8ad560588ac790668f4fbdba
+Description:  LDD trace utility
+
+Package: libatomic
+Version: 4.9-linaro-1
+Depends: libgcc
+Source: /root/home/src/chaos_calmer/package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 5259
+Filename: libatomic_4.9-linaro-1_rtd1295.ipk
+Size: 6009
+MD5Sum: 85c42cf8637a6e7a301f6a827f714278
+SHA256sum: 99b2370e4a7ef85d23acc8ebcb79ac75dd87f6f76d18fad63a4f93fb5ac4b9f2
+Description:  Atomic support library
+
+Package: libblkid
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libuuid
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+Architecture: rtd1295
+Installed-Size: 88223
+Filename: libblkid_2.25.2-4_rtd1295.ipk
+Size: 89035
+MD5Sum: af81b163dc5db995e32a6b5958f13213
+SHA256sum: a190fcffc2df1fb04828fa9427517bb478da453f74317ca841ea1d733d1b63d6
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
+
+Package: libcurl
+Version: 7.52.1-2
+Depends: libc, librt, libpthread, libmbedtls, zlib
+Source: /root/home/src/chaos_calmer/package/network/utils/curl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 109995
+Filename: libcurl_7.52.1-2_rtd1295.ipk
+Size: 110649
+MD5Sum: 34185408486b8e059619868faeb90e68
+SHA256sum: 8a20545ffe2a9b1fd4c9001a39a20c87144e169c05a6ef06263beda524590698
+Description:  A client-side URL transfer library
+
+Package: libcyassl
+Version: 3.8.0-2
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/cyassl
+License: GPL-2.0+
+Section: libs
+Architecture: rtd1295
+Installed-Size: 130392
+Filename: libcyassl_3.8.0-2_rtd1295.ipk
+Size: 130402
+MD5Sum: 26bd6730ac9952dcc5779c6d640a5ddb
+SHA256sum: 09ce647576ce72442b03390505357997116cfea83804575770afee22b6a79cdf
+Description:  CyaSSL is an SSL library optimized for small footprint, both on disk and for
+ memory use.
+
+Package: libevent2-core
+Version: 2.0.22-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/libevent2
+License: BSD-3-Clause
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 55883
+Filename: libevent2-core_2.0.22-1_rtd1295.ipk
+Size: 56785
+MD5Sum: 1950e9f4c1f59661c38924986c2685ed
+SHA256sum: 04f9f0d0fe90f0f074db31b6c53bcd302406d27136897c55cef86acbc4b1cdee
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent core shared library for the event,
+ buffer & utility functions.
+
+Package: libevent2-extra
+Version: 2.0.22-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/libevent2
+License: BSD-3-Clause
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 43038
+Filename: libevent2-extra_2.0.22-1_rtd1295.ipk
+Size: 44097
+MD5Sum: b960e9c78769fbca89b10339a6f16db1
+SHA256sum: 40e993b3626f7e64ba3fcedfc5c12fce6b513d44a030b58e7e9e70fb385baf64
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent extra shared library for specific
+ protocols including HTTP, DNS & RPC.
+
+Package: libevent2-openssl
+Version: 2.0.22-1
+Depends: libc, librt, libpthread, libopenssl
+Source: /root/home/src/chaos_calmer/package/libs/libevent2
+License: BSD-3-Clause
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 7707
+Filename: libevent2-openssl_2.0.22-1_rtd1295.ipk
+Size: 8742
+MD5Sum: 74fcf762086b3e12805b0d2df23930b0
+SHA256sum: 263c6e1ede00722a82ec0668b8180800b2261172be67eb09736085f68e031c10
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent OpenSSL shared library for encrypted
+ bufferevents.
+
+Package: libevent2-pthreads
+Version: 2.0.22-1
+Depends: libc, librt, libpthread, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/libevent2
+License: BSD-3-Clause
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 2474
+Filename: libevent2-pthreads_2.0.22-1_rtd1295.ipk
+Size: 3488
+MD5Sum: 82f13bc19995cbd89de24982d0eba028
+SHA256sum: a7ecfc2805450d8e95e6e4b103bd48722b08cd9357012c11a79dc749a6f52b66
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent Pthreads shared library for
+ threading & locking.
+
+Package: libevent2
+Version: 2.0.22-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/libevent2
+License: BSD-3-Clause
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 94386
+Filename: libevent2_2.0.22-1_rtd1295.ipk
+Size: 94935
+MD5Sum: 69851675bf8da8c3c75edfd091cee3ef
+SHA256sum: 10fddebcdce0dc310b3b3dd61cf22228bbf8ed377c1737b00ad4255d1c661040
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libgcc
+Version: 4.9-linaro-1
+Source: /root/home/src/chaos_calmer/package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 30389
+Filename: libgcc_4.9-linaro-1_rtd1295.ipk
+Size: 31141
+MD5Sum: 191abb1d8571b0b7b5ddbf85250bffeb
+SHA256sum: ff1c16ca2dc6e783d09407e15fc627f96fb2f57e3705e63ee79e072a082e66a4
+Description:  GCC support library
+
+Package: libgmp
+Version: 6.0.0-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/gmp
+License: GPL-2.0+
+Section: libs
+Architecture: rtd1295
+Installed-Size: 220314
+Filename: libgmp_6.0.0-1_rtd1295.ipk
+Size: 220585
+MD5Sum: 1cb9f279c917da5c9a73cf030fd6cccf
+SHA256sum: bc348d51061a8049c4ae02e5cfd2636d1b72cf35536d5ca3859ce2d02e89a645
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.
+
+Package: libiconv
+Version: 7
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/libiconv
+License: LGPL-2.1
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 168
+Filename: libiconv_7_rtd1295.ipk
+Size: 940
+MD5Sum: 6b026a3f2d4bf5cb1ebb4e1b64152c09
+SHA256sum: 4bfe28c55886d59190215ba6a462aed283f30301df0ffeb603b7bdea6109bdf2
+Description:  Tiny drop-in replacement for the GNU Character set conversion library
+
+Package: libintl
+Version: 2
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/gettext
+License: FSFULLR
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 167
+Filename: libintl_2_rtd1295.ipk
+Size: 929
+MD5Sum: 9e5b24245bd04c15c52fb76c8aa269bb
+SHA256sum: 79533c64c5ddea40d99770dccff6f80982b9ea06fd36845fd709aa09867a2b29
+Description:  Stub header for the GNU Internationalization library
+
+Package: libmbedtls
+Version: 2.4.0-2
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/mbedtls
+License: GPL-2.0+
+Section: libs
+Architecture: rtd1295
+Installed-Size: 140693
+Filename: libmbedtls_2.4.0-2_rtd1295.ipk
+Size: 141354
+MD5Sum: 6167fa4b7e39036b6231bb77d44cea7c
+SHA256sum: 6478a8b3e4e2648439fea83b8838148d3073cef8f91e68b194b25690c6e7bb15
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libmount
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libblkid
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+Architecture: rtd1295
+Installed-Size: 94317
+Filename: libmount_2.25.2-4_rtd1295.ipk
+Size: 94664
+MD5Sum: 909bba97a81a651e4517221ef442828b
+SHA256sum: f6b4bac44a92c83c63ea473f880562c60b201af91a77bdb36de0cec8008d7099
+Description:  The libmount library is used to parse /etc/fstab, /etc/mtab and
+ /proc/self/mountinfo files, manage the mtab file, evaluate mount options...
+
+Package: libncurses
+Version: 5.9-2
+Depends: libc, librt, libpthread, terminfo
+Source: /root/home/src/chaos_calmer/package/libs/ncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+Architecture: rtd1295
+Installed-Size: 127278
+Filename: libncurses_5.9-2_rtd1295.ipk
+Size: 125663
+MD5Sum: ec180550d7e2b54de53170a74b210c7e
+SHA256sum: 888094ce2b6a426773fa2830111dfee468b2cb14633e53029b951220def9b0ee
+Description:  Terminal handling library
+
+Package: libncursesw
+Version: 5.9-2
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/ncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+Architecture: rtd1295
+Installed-Size: 145844
+Filename: libncursesw_5.9-2_rtd1295.ipk
+Size: 144113
+MD5Sum: f406d5aca86d4280dcea72ab5c0d1744
+SHA256sum: 4e6715a44615c97a258733b8a75bae3488fb24c3fcf87229d2057f4c9ee1c2c2
+Description:  Terminal handling library (Unicode)
+
+Package: libnettle
+Version: 3.1.1-1
+Depends: libc, librt, libpthread, libgmp
+Source: /root/home/src/chaos_calmer/package/libs/nettle
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Architecture: rtd1295
+Installed-Size: 238023
+Filename: libnettle_3.1.1-1_rtd1295.ipk
+Size: 237918
+MD5Sum: ba3fc7b2275abac5af8d92df03b6c643
+SHA256sum: 024affe2b14fcad15d3a4dcdf7a55932bdda1076b23c2911a0732922faf0be1f
+Description:  GNU crypto library
+
+Package: libopenssl
+Version: 1.0.2n-1
+Depends: libc, librt, libpthread, zlib
+Source: /root/home/src/chaos_calmer/package/libs/openssl
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: libs
+Architecture: rtd1295
+Installed-Size: 691226
+Filename: libopenssl_1.0.2n-1_rtd1295.ipk
+Size: 686718
+MD5Sum: ae1abe8109f520bc0a04227883728bc7
+SHA256sum: 73c7929158c8d6ca91079ad31fdc1d37a4d955b6ef01a2b8d91d64d9a2db06fe
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpolarssl
+Version: 1.3.18-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/polarssl
+License: GPL-2.0+
+Section: libs
+Architecture: rtd1295
+Installed-Size: 121213
+Filename: libpolarssl_1.3.18-1_rtd1295.ipk
+Size: 121987
+MD5Sum: 89098c8f3655f97832dd5c4423beaa22
+SHA256sum: 28a45f68bc53d9b1551f3aea38c88fd04e4a3fd94cc2677434a1b32d25edb0e4
+Description:  The aim of the PolarSSL project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the PolarSSL library.
+
+Package: libpthread
+Version: 2.19-1
+Depends: libgcc
+Source: /root/home/src/chaos_calmer/package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 36029
+Filename: libpthread_2.19-1_rtd1295.ipk
+Size: 36802
+MD5Sum: df9ffced9477d36d6de5fff2dda90aeb
+SHA256sum: 2b0e2071fe14d889fb1a7c9d4ac055f50fe711caaff58bc57372f06318b15f85
+Description:  POSIX thread library
+
+Package: librt
+Version: 2.19-1
+Depends: libpthread
+Source: /root/home/src/chaos_calmer/package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 11381
+Filename: librt_2.19-1_rtd1295.ipk
+Size: 12162
+MD5Sum: 8ca42fbba5364fb8f99007fea3bd632e
+SHA256sum: 9531fbc40b3669277b61e30fc52403bd6627af5790746a7218c05a7bfb328acc
+Description:  POSIX.1b RealTime extension library
+
+Package: libsmartcols
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+Architecture: rtd1295
+Installed-Size: 47014
+Filename: libsmartcols_2.25.2-4_rtd1295.ipk
+Size: 47717
+MD5Sum: e0eb89e3ac2cdb4b492b227dcec1a4dc
+SHA256sum: 0f5f011089ef8946c29fdf3ce3fedc0ffe41c7e19fc0c171828b51f93d650a9e
+Description:  The smartcols library is used to print tables and trees in a pretty way.
+
+Package: libstdcpp
+Version: 4.9-linaro-1
+Source: /root/home/src/chaos_calmer/package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 243912
+Filename: libstdcpp_4.9-linaro-1_rtd1295.ipk
+Size: 239801
+MD5Sum: dc6ca134dcf25d0074a50c45b59b7999
+SHA256sum: d06efdde1049aedf66607d257ba1dbda94ad2a28b3841beacc91eb2cf38338a6
+Description:  GNU Standard C++ Library v3
+
+Package: libthread-db
+Version: 2.19-1
+Source: /root/home/src/chaos_calmer/package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 175
+Filename: libthread-db_2.19-1_rtd1295.ipk
+Size: 952
+MD5Sum: a25f40d64fdefc8cf83750492d567a26
+SHA256sum: f21911e41918745a5a95d858555c764e700085979afb8a59932ec899caf52277
+Description:  POSIX thread library debugging support
+
+Package: libuuid
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+Architecture: rtd1295
+Installed-Size: 5814
+Filename: libuuid_2.25.2-4_rtd1295.ipk
+Size: 6740
+MD5Sum: 6dce697bacfe90da04e0aab29ab6b26a
+SHA256sum: 93f0e4a4bc7e08e937a4f2cdc517c4463bbc0878ae9481fd63292f38d5c4d182
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: logger
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 8803
+Filename: logger_2.25.2-4_rtd1295.ipk
+Size: 9626
+MD5Sum: 3c0507555bedddd10eae13e837e4ea24
+SHA256sum: 1bffe1ea6943e6afa81c62d3308468a0341f81f7d009ec4696f2d2d2f6ade1b5
+Description:  logger makes entries in the system log, it provides a shell command interface
+ to the syslog system log module
+
+Package: look
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 4161
+Filename: look_2.25.2-4_rtd1295.ipk
+Size: 4939
+MD5Sum: c95ba5294830bdb1a28d9bd8b2c76d6d
+SHA256sum: 364c7f2efb1f725b389e9a340cf00a8d805aa688dbf772ea558756d49fca9b24
+Description:  look utility displays any lines in file which contain string
+
+Package: losetup
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libsmartcols
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 21783
+Filename: losetup_2.25.2-4_rtd1295.ipk
+Size: 22599
+MD5Sum: ed5ad84ff6abb885ce53db2a49091123
+SHA256sum: 432beed6a1e6bdb45dafa83fcf39a483a4a2a885a3a53acfe15528c4b1872633
+Description:  losetup is used to associate loop devices with regular files or block devices,
+ to detach loop devices and to query the status of a loop device
+
+Package: lsblk
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libblkid, libmount, libsmartcols
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 22597
+Filename: lsblk_2.25.2-4_rtd1295.ipk
+Size: 23309
+MD5Sum: 0db25f2637f2e81585d596256cc13f12
+SHA256sum: 1932a57b677fee4b75227292e7cf4cfd1974ae9c0b464ab88a3603848d946db8
+Description:  lsblk lists information about all or the specified block devices
+
+Package: mcookie
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 9867
+Filename: mcookie_2.25.2-4_rtd1295.ipk
+Size: 10679
+MD5Sum: badb3645c9f4d504d97d2266e2a38135
+SHA256sum: cf2f22af9156ff9057fddd8fa349d3fd2dda035cb315b2e9112bd6d015db4874
+Description:  mcookie generates a 128-bit random hexadecimal number for use with the X
+ authority system
+
+Package: mount-utils
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libmount, libsmartcols
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 37519
+Filename: mount-utils_2.25.2-4_rtd1295.ipk
+Size: 38134
+MD5Sum: 0ceee177e898d16dec34ad30d07c063f
+SHA256sum: a79fe4c5457540b6d74d5a40163c90b58661e14d26f9a36a2d80a28947029ace
+Description:  contains: mount, umount, findmnt
+
+Package: namei
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 8424
+Filename: namei_2.25.2-4_rtd1295.ipk
+Size: 9259
+MD5Sum: 4fed90fd56d2c3016acaf03916c3b5db
+SHA256sum: b2d31004d6f55a7a634d24a9a15551dc6fb7180caad6c5562e3ea09f2b989c2e
+Description:  namei uses its arguments as pathnames to any type of Unix file (symlinks,
+ files, directories, and so forth)
+
+Package: openssl-util
+Version: 1.0.2n-1
+Depends: libc, librt, libpthread, libopenssl
+Source: /root/home/src/chaos_calmer/package/libs/openssl
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: utils
+Architecture: rtd1295
+Installed-Size: 206859
+Filename: openssl-util_1.0.2n-1_rtd1295.ipk
+Size: 203122
+MD5Sum: ed88f18c8e5b1e7fa63bf46fb84fecca
+SHA256sum: 23d91e3932590c3462e234b73ea9409ed3e5f51875a039a74307b0ce8d0a4a9e
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
+
+Package: partx-utils
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libblkid, libsmartcols
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 30978
+Filename: partx-utils_2.25.2-4_rtd1295.ipk
+Size: 31700
+MD5Sum: 9664de0fdaab3d95b2dddbf818f43f88
+SHA256sum: fbeb8804230cbb2f69eed5f803bef0cc99c3c6f4287dce313d73925b04ba7944
+Description:  contains partx, addpart, delpart
+
+Package: rename
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 3990
+Filename: rename_2.25.2-4_rtd1295.ipk
+Size: 4792
+MD5Sum: 3c13bec4d92becd9bb0752941f4627bc
+SHA256sum: 082dd38c2f9e6ac955cfae03848bf3d42b1477be882a5c4a7e3c87038d712256
+Description:  rename will rename the specified files by replacing the first occurrence of
+ expression in their name by replacement
+
+Package: script-utils
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 9785
+Filename: script-utils_2.25.2-4_rtd1295.ipk
+Size: 10542
+MD5Sum: dc84ac4a1a416a94f52130c8de595034
+SHA256sum: 0f6d74cfc61dc5623173f975230b97e5a50ea99922ef0fd67045f2e75ea11d79
+Description:  contains: script, scriptreplay
+
+Package: setterm
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libncurses
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 12178
+Filename: setterm_2.25.2-4_rtd1295.ipk
+Size: 12988
+MD5Sum: 22f81a6928a4949d6e5e57acbca54d59
+SHA256sum: 4d49cdaf15cd1caefc9cb9cd45b9cdb8e8829258fc715c51a7adc2054dab5757
+Description:  setterm writes to standard output a character string that will invoke the
+ specified terminal capabilities
+
+Package: sfdisk
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 31852
+Filename: sfdisk_2.25.2-4_rtd1295.ipk
+Size: 32666
+MD5Sum: ef1f1b0714090ce88cb79ffff7b957bd
+SHA256sum: 1f836461c4668270a91c516e48ef727831eb571f56645bb12f3254315070210b
+Description:  list the size of a partition, list the partitions on a device, check the
+ partitions on a device and repartition a device
+
+Package: swap-utils
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libblkid
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 24099
+Filename: swap-utils_2.25.2-4_rtd1295.ipk
+Size: 24787
+MD5Sum: a93cdee5ec21a3696b421f04ceeb5e8c
+SHA256sum: b52c28ea1f1e61d2fcdfc35ab943cb2452f340bd058de9de731ba3548ab799d5
+Description:  contains: mkswap, swaplabel
+
+Package: terminfo
+Version: 5.9-2
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/ncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+Architecture: rtd1295
+Installed-Size: 5855
+Filename: terminfo_5.9-2_rtd1295.ipk
+Size: 6553
+MD5Sum: afedd83133b0991b0930c33978eb8f5f
+SHA256sum: 1ac3d1b56e1e0f0daa2de860882380c889a56fe85e1d5c3287e95a09f5ae5bac
+Description:  Terminal Info Database (ncurses)
+
+Package: uuidd
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libuuid
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 10042
+Filename: uuidd_2.25.2-4_rtd1295.ipk
+Size: 10966
+MD5Sum: 4b240accddcc26553d8f257623d4b876
+SHA256sum: c9eb20dd0924a678609184aec1dd54bc914064c5421be2f7851e9dad83958d89
+Description:  The uuidd daemon is used by the UUID library to generate universally unique
+ identifiers (UUIDs), especially time-based UUIDs, in a secure and
+ guaranteed-unique fashion, even in the face of large numbers of threads
+ running on different CPUs trying to grab UUIDs.
+
+Package: uuidgen
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libuuid
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 2956
+Filename: uuidgen_2.25.2-4_rtd1295.ipk
+Size: 3860
+MD5Sum: f6198c9a5cc4b9608f0e10ef14162552
+SHA256sum: 1e006e5c414a5b14d0ac6abe5572ca6baa315bbf740a9ec5b93b87da3ca3e39a
+Description:  The uuidgen program creates (and prints) a new universally unique identifier
+ (UUID) using the libuuid library. The new UUID can reasonably be considered
+ unique among all UUIDs created on the local system, and among UUIDs created on
+ other systems in the past and in the future.
+
+Package: wall
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 9454
+Filename: wall_2.25.2-4_rtd1295.ipk
+Size: 10248
+MD5Sum: 9bb61625d2ca33212956a7a33b860511
+SHA256sum: b8614928dd4c1c6f36bf9e36bb301bf8e8f85c9676f335f9a41a6417e072308c
+Description:  wall sends a message to everybody logged in with their mesg permission
+ set to yes
+
+Package: whereis
+Version: 2.25.2-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 7825
+Filename: whereis_2.25.2-4_rtd1295.ipk
+Size: 8615
+MD5Sum: dd284a91ae2c155a6f8fc587aeea3a6a
+SHA256sum: f419b6aa5de0e28c91277368b4ba8f1c8130553b5fb6ab931cdade2dfb5970e9
+Description:  whereis locates source/binary and manuals sections for specified files
+
+Package: wipefs
+Version: 2.25.2-4
+Depends: libc, librt, libpthread, libblkid
+Source: /root/home/src/chaos_calmer/package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: rtd1295
+Installed-Size: 9965
+Filename: wipefs_2.25.2-4_rtd1295.ipk
+Size: 10816
+MD5Sum: 91612dbd33486cb02547304032576180
+SHA256sum: db3c3e53ccd2f68b2b171cd55f5dee5cd68ba24d79688f9026c4d63fab996c46
+Description:  wipefs can erase filesystem, raid or partition table signatures (magic
+ strings) from the specified device to make the signature invisible for
+ libblkid.
+
+Package: zlib
+Version: 1.2.8-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/zlib
+License: Zlib
+LicenseFiles: README
+Section: libs
+Architecture: rtd1295
+Installed-Size: 40862
+Filename: zlib_1.2.8-1_rtd1295.ipk
+Size: 41585
+MD5Sum: d8681a5b617094dc68ecf2bffd69762c
+SHA256sum: 0015acfc95d44af6e8f986bf10eb1f7183a24c5dcbd3294b1867f83d65bc8808
+Description:  Library implementing the deflate compression method
+

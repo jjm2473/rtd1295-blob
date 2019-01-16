@@ -1,0 +1,473 @@
+Package: certtool
+Version: 3.4.15-1
+Depends: libc, librt, libpthread, libgnutls
+Source: /root/home/src/openwrt-packages/libs/gnutls
+License: LGPLv2.1+
+Section: utils
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: rtd1295
+Installed-Size: 91024
+Filename: certtool_3.4.15-1_rtd1295.ipk
+Size: 91770
+MD5Sum: 82656a61c2cea3e25ae8e38a993f9307
+SHA256sum: 7294b08a5aa0793d282306b656c7109200027694dfcba5e2c245c6073c4f7ec2
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS certtool utility.
+
+Package: gnutls-utils
+Version: 3.4.15-1
+Depends: libc, librt, libpthread, libgnutls
+Source: /root/home/src/openwrt-packages/libs/gnutls
+License: LGPLv2.1+
+Section: utils
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: rtd1295
+Installed-Size: 221461
+Filename: gnutls-utils_3.4.15-1_rtd1295.ipk
+Size: 221954
+MD5Sum: e9f277c718c1eb6f1755b1cc9e4d1bee
+SHA256sum: ce86b915dccd935eb046f14f422a304e141b09c6353a5314ff75736ea4ce984d
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS gnutls-cli, gnutls-serv, psktool,
+ and srptool utilities.
+
+Package: idn
+Version: 1.32-1
+Depends: libc, librt, libpthread, libidn
+Source: /root/home/src/openwrt-packages/libs/libidn
+License: GPL-2.0+ GPL-3.0+ LGPL-2.1+ LGPL-3.0+ Apache-2.0
+LicenseFiles: COPYING COPYINGv2 COPYINGv3 COPYING.LESSERv2 COPYING.LESSERv3 java/LICENSE-2.0.txt
+Section: net
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: rtd1295
+Installed-Size: 12152
+Filename: idn_1.32-1_rtd1295.ipk
+Size: 13049
+MD5Sum: 9e136fd214f8afe4e57ac7a316e406c9
+SHA256sum: 8c9f114ac001237a64535b8d93ad95fe294d3f1d21ba93d02c5fe63096822d7d
+Description:  GNU Libidn is a fully documented implementation of the Stringprep,
+ Punycode and IDNA specifications. Libidn's purpose is to encode and
+ decode internationalized domain names.
+ 
+ Command line tool using libidn
+ 
+
+Package: libgnutls-openssl
+Version: 3.4.15-1
+Depends: libc, librt, libpthread, libgnutls
+Source: /root/home/src/openwrt-packages/libs/gnutls
+License: LGPLv2.1+
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: rtd1295
+Installed-Size: 33364
+Filename: libgnutls-openssl_3.4.15-1_rtd1295.ipk
+Size: 34364
+MD5Sum: af9c9ba6288c237ff85ea9b8146a6029
+SHA256sum: c738303a7ba66060952150de29025d97fe242c4123f6bc38a96bfe4347a14090
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS OpenSSL compatibility layer shared library.
+
+Package: libgnutls
+Version: 3.4.15-1
+Depends: libc, librt, libpthread, libnettle, libgmp
+Source: /root/home/src/openwrt-packages/libs/gnutls
+License: LGPLv2.1+
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: rtd1295
+Installed-Size: 309981
+Filename: libgnutls_3.4.15-1_rtd1295.ipk
+Size: 308351
+MD5Sum: 50f3537c7354cea0c9000527aa466702
+SHA256sum: 2ff90e08349ef2a82207dca779cbc27ab66c62240648d1f3162b0bfba0c6cb01
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libidn
+Version: 1.32-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/libidn
+License: GPL-2.0+ GPL-3.0+ LGPL-2.1+ LGPL-3.0+ Apache-2.0
+LicenseFiles: COPYING COPYINGv2 COPYINGv3 COPYING.LESSERv2 COPYING.LESSERv3 java/LICENSE-2.0.txt
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: rtd1295
+Installed-Size: 62349
+Filename: libidn_1.32-1_rtd1295.ipk
+Size: 61337
+MD5Sum: 20a42d23de4020cbe004da616cc53403
+SHA256sum: e31c2d9a8519fc659a7acb24af9e7006101eccfa17b30b27168fcc5d0bcfba98
+Description:  GNU Libidn is a fully documented implementation of the Stringprep,
+ Punycode and IDNA specifications. Libidn's purpose is to encode and
+ decode internationalized domain names.
+ 
+ Library only package
+ 
+
+Package: libminiupnpc
+Version: 1.9-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/net/miniupnpc
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 16603
+Filename: libminiupnpc_1.9-1_rtd1295.ipk
+Size: 17237
+MD5Sum: 86ce20600d1ee802ce53730a791c6c5c
+SHA256sum: 819f3aaff1208c7bb16aa21f32f152455018857b60120153563dfaf42c33fe90
+Description:  Lightweight UPnP library
+
+Package: libnatpmp
+Version: 20140401-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/libnatpmp
+License: BSD-3c
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Hauke Mehrtens <hauke@hauke-m.de>
+Architecture: rtd1295
+Installed-Size: 3668
+Filename: libnatpmp_20140401-1_rtd1295.ipk
+Size: 4562
+MD5Sum: eba84380826bef13f254a8e507477cdc
+SHA256sum: cdb6a7adba98775d3c4816a9f5e13bd8c96657e3581014357c43974a61bfb746
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libopenldap
+Version: 2.4.44-1
+Depends: libc, librt, libpthread, libopenssl, libsasl2, libpthread
+Source: /root/home/src/openwrt-packages/libs/openldap
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: rtd1295
+Installed-Size: 201929
+Filename: libopenldap_2.4.44-1_rtd1295.ipk
+Size: 200546
+MD5Sum: 58ff13835336d6999f80cb3e9b1a0a96
+SHA256sum: 6146da2d677b2cf14531b2fe787fee35e3e1e8c6fe0f25d223e482b9f6e95716
+Description:  OpenLDAP Software is an open source implementation of the
+ Lightweight Directory Access Protocol (LDAP).
+ This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: libsasl2
+Version: 2.1.26-3
+Depends: libc, librt, libpthread, libopenssl
+Source: /root/home/src/openwrt-packages/libs/cyrus-sasl
+License: BSD-4c BSD
+LicenseFiles: COPYING cmulocal/COPYING saslauthd/COPYING
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: rtd1295
+Installed-Size: 82492
+Filename: libsasl2_2.1.26-3_rtd1295.ipk
+Size: 83101
+MD5Sum: 3205ab750c8793220912f02d4859118e
+SHA256sum: 8f52d49f0afc20d14b4b347730c4dd2ece3debfd5b960aed4dd939cbcbb9f589
+Description:  A general purpose authentication library
+
+Package: libssh2
+Version: 1.6.0-2
+Depends: libc, librt, libpthread, libopenssl, zlib
+Source: /root/home/src/openwrt-packages/libs/libssh2
+License: BSD
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: rtd1295
+Installed-Size: 60089
+Filename: libssh2_1.6.0-2_rtd1295.ipk
+Size: 60755
+MD5Sum: 289ff693d92f52c6bdc1b74ce893306a
+SHA256sum: 8fe620040603b2112bf63e2b8e82cd6d9a5cc3b0eecfd8cf738e5f04491b830c
+Description:  libssh2 is a client-side C library implementing the SSH2 protocol.
+
+Package: libtasn1
+Version: 4.8-2
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/libtasn1
+License: LGPLv2.1+
+LicenseFiles: COPYING.LIB
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: rtd1295
+Installed-Size: 29337
+Filename: libtasn1_4.8-2_rtd1295.ipk
+Size: 30115
+MD5Sum: d2c1b5d645cf687c693bbcb0b8132ec7
+SHA256sum: 1f5580fa5bfbc5fcfda1b5e52c443f9a408cf95a824a9444f093bb612563fae6
+Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
+ Distinguish Encoding Rules (DER) manipulation.
+
+Package: miniupnpc
+Version: 1.9-1
+Depends: libc, librt, libpthread, libminiupnpc
+Source: /root/home/src/openwrt-packages/net/miniupnpc
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 7203
+Filename: miniupnpc_1.9-1_rtd1295.ipk
+Size: 7934
+MD5Sum: 4e0fa4c9c76286890eca72c2aaf5a40b
+SHA256sum: a5072f258dff51a860047ebcbed31c7927bf07d4d82dc77a6ca38de1e33aef8d
+Description:  Lightweight UPnP client
+
+Package: natpmpc
+Version: 20140401-1
+Depends: libc, librt, libpthread, libnatpmp
+Source: /root/home/src/openwrt-packages/libs/libnatpmp
+License: BSD-3c
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Hauke Mehrtens <hauke@hauke-m.de>
+Architecture: rtd1295
+Installed-Size: 4107
+Filename: natpmpc_20140401-1_rtd1295.ipk
+Size: 4997
+MD5Sum: 87ee3b6af991416f97554fc041ab4971
+SHA256sum: 41b903cc484d8fd5b2c48e8917f3a94b90c060fab0a2e29ab2140dc56fd32769
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the natpmp client.
+
+Package: openldap-server
+Version: 2.4.44-1
+Depends: libc, librt, libpthread, libopenldap, libuuid
+Source: /root/home/src/openwrt-packages/libs/openldap
+Section: net
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: rtd1295
+Installed-Size: 478737
+Filename: openldap-server_2.4.44-1_rtd1295.ipk
+Size: 471291
+MD5Sum: eea980d95eb59d85fe01f0bfc5420b48
+SHA256sum: b3d3bfc3473180b52e74ec236b577d5148a3b067ac2a65e2da049c4881280f22
+Description:  OpenLDAP Software is an open source implementation of the
+ Lightweight Directory Access Protocol (LDAP).
+ This package contains server programs required to provide LDAP services.
+
+Package: openldap-utils
+Version: 2.4.44-1
+Depends: libc, librt, libpthread, libopenldap
+Source: /root/home/src/openwrt-packages/libs/openldap
+Section: utils
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: rtd1295
+Installed-Size: 204255
+Filename: openldap-utils_2.4.44-1_rtd1295.ipk
+Size: 204515
+MD5Sum: 610287517edece7e1abbf8c0df43e041
+SHA256sum: b9ce267e02f4ffccbda1360a8c8a20b3172250ae17ff42172696ecf41237fcad
+Description:  OpenLDAP Software is an open source implementation of the
+ Lightweight Directory Access Protocol (LDAP).
+ This package contains client programs required to access LDAP servers.
+
+Package: p11-kit
+Version: 0.23.1-1
+Depends: libc, librt, libpthread, libtasn1, libpthread
+Source: /root/home/src/openwrt-packages/libs/p11-kit
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: rtd1295
+Installed-Size: 91965
+Filename: p11-kit_0.23.1-1_rtd1295.ipk
+Size: 91836
+MD5Sum: 8fd31990c1538408ddb9abe4dc2c32fa
+SHA256sum: 1aec1bde4adec1db721ad9ada80445b155d80833844fff721ae3ba15dcc2c070
+Description:  Provides a way to load and enumerate PKCS11 modules. Provides a
+ standard configuration setup for installing PKCS11 modules in such a
+ way that they are discoverable.
+
+Package: transmission-cli-mbedtls
+Version: 2.94-2
+Depends: libc, librt, libpthread, libcurl, libevent2, libminiupnpc, libnatpmp, libpthread, librt, zlib, libmbedtls
+Source: /root/home/src/openwrt-packages/net/transmission
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: rtd1295
+Installed-Size: 731949
+Filename: transmission-cli-mbedtls_2.94-2_rtd1295.ipk
+Size: 731448
+MD5Sum: 62c0dc98207f3cb32095f3cf540ab074
+SHA256sum: e354f12ae1696e675573508f4860b538111d2fe1552b2913f44e78ccb0ca5f71
+Description:  CLI utilities for transmission.
+
+Package: transmission-cli-openssl
+Version: 2.94-2
+Depends: libc, librt, libpthread, libcurl, libevent2, libminiupnpc, libnatpmp, libpthread, librt, zlib, libopenssl
+Source: /root/home/src/openwrt-packages/net/transmission
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: rtd1295
+Installed-Size: 732075
+Filename: transmission-cli-openssl_2.94-2_rtd1295.ipk
+Size: 731697
+MD5Sum: 2cfbc1f79583696618212f58013a4a00
+SHA256sum: 74de37bc23b8b4eb9b189a958dde676b8a3f61f0f7424a75dd4c6dca16de87c0
+Description:  CLI utilities for transmission.
+
+Package: transmission-cli
+Version: 2.84-3
+Depends: libc, librt, libpthread, transmission-daemon
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: rtd1295
+Installed-Size: 766532
+Filename: transmission-cli_2.84-3_rtd1295.ipk
+Size: 765994
+MD5Sum: 2bd21f6eef4dac139e8a911411eb1663
+SHA256sum: 2454c51cd2e5d9e471b57a3f0ff9f2a387a45ff328dc75e39e301e938f44c9cf
+Description:  CLI utilities for transmission.
+
+Package: transmission-daemon-mbedtls
+Version: 2.94-2
+Depends: libc, librt, libpthread, libcurl, libevent2, libminiupnpc, libnatpmp, libpthread, librt, zlib, libmbedtls
+Source: /root/home/src/openwrt-packages/net/transmission
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Require-User: transmission=224:transmission=224
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: rtd1295
+Installed-Size: 189951
+Filename: transmission-daemon-mbedtls_2.94-2_rtd1295.ipk
+Size: 190640
+MD5Sum: 2f609551aacdb4e7287360740f8f1fa1
+SHA256sum: 5f5f93213a8a85ca2491fa481cbe0cd69f12a5e51661e88f50933d89a147effe
+Description:  Transmission is a simple BitTorrent client.
+ It features a very simple, intuitive interface
+ on top on an efficient, cross-platform back-end.
+ This package contains the daemon itself.
+
+Package: transmission-daemon-openssl
+Version: 2.94-2
+Depends: libc, librt, libpthread, libcurl, libevent2, libminiupnpc, libnatpmp, libpthread, librt, zlib, libopenssl
+Source: /root/home/src/openwrt-packages/net/transmission
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Require-User: transmission=224:transmission=224
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: rtd1295
+Installed-Size: 190144
+Filename: transmission-daemon-openssl_2.94-2_rtd1295.ipk
+Size: 190881
+MD5Sum: cf7f7c288853b68d8ea5ed125c050da1
+SHA256sum: e9f44cf53981be11b93a3c3ca636bcc0158c8548eea530651bf1d30c076648d7
+Description:  Transmission is a simple BitTorrent client.
+ It features a very simple, intuitive interface
+ on top on an efficient, cross-platform back-end.
+ This package contains the daemon itself.
+
+Package: transmission-daemon
+Version: 2.84-3
+Depends: libc, librt, libpthread, libcurl, libopenssl, libpthread, libevent2, librt
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: rtd1295
+Installed-Size: 196755
+Filename: transmission-daemon_2.84-3_rtd1295.ipk
+Size: 197297
+MD5Sum: 8f34d3be3c5918ad014cd609cd4b6f34
+SHA256sum: 60870ec44459509d34587d4bd369d56ff78fce1df92b1ab03fb9f31c7d4b6931
+Description:  Transmission is a simple BitTorrent client.
+ It features a very simple, intuitive interface
+ on top on an efficient, cross-platform back-end.
+ This package contains the daemon itself.
+
+Package: transmission-remote-mbedtls
+Version: 2.94-2
+Depends: libc, librt, libpthread, libcurl, libevent2, libminiupnpc, libnatpmp, libpthread, librt, zlib, libmbedtls
+Source: /root/home/src/openwrt-packages/net/transmission
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: rtd1295
+Installed-Size: 195694
+Filename: transmission-remote-mbedtls_2.94-2_rtd1295.ipk
+Size: 196380
+MD5Sum: 2dd62d95a0d69faf7c9fccd7ca90c98a
+SHA256sum: 22118399822564256774a5d84b84a3dd5e7622ddc71b55ce08a41ed81942d10e
+Description:  CLI remote interface for transmission.
+
+Package: transmission-remote-openssl
+Version: 2.94-2
+Depends: libc, librt, libpthread, libcurl, libevent2, libminiupnpc, libnatpmp, libpthread, librt, zlib, libopenssl
+Source: /root/home/src/openwrt-packages/net/transmission
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: rtd1295
+Installed-Size: 195821
+Filename: transmission-remote-openssl_2.94-2_rtd1295.ipk
+Size: 196414
+MD5Sum: a075f4c4a56e80bd24b9f6aefe8b2cad
+SHA256sum: 93964f2beb34449a5707c7dbb610cf382473808a71e16c32a78f02c6aa8f9f14
+Description:  CLI remote interface for transmission.
+
+Package: transmission-remote
+Version: 2.84-3
+Depends: libc, librt, libpthread, libcurl, libopenssl, libpthread, libevent2, librt
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: rtd1295
+Installed-Size: 204499
+Filename: transmission-remote_2.84-3_rtd1295.ipk
+Size: 205003
+MD5Sum: 56ecaf2474c36c11d14e52ef475c0a16
+SHA256sum: e71a86f3c88fe81bc75bed64be495e63acb394a467defacc020f8a583c820c51
+Description:  CLI remote interface for transmission.
+
+Package: transmission-web
+Version: 2.94-2
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/net/transmission
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: rtd1295
+Installed-Size: 238015
+Filename: transmission-web_2.94-2_rtd1295.ipk
+Size: 238914
+MD5Sum: 02105351a262ff99c64c1e0105ce6ba6
+SHA256sum: f64ba9e9299e59d9cc3053944491b95cc271f518c8a59b7d1608bff0ee8178a9
+Description:  Webinterface resources for transmission.
+
