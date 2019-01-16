@@ -9,7 +9,7 @@
     ```
     ssh root@192.168.1.105
     ```
-2. 执行以下命令 (复制粘贴到SSH的窗口, 按回车)
+2. 执行以下命令 (复制粘贴到SSH的窗口, 按回车)
     ```
     cd /tmp
     wget https://raw.githubusercontent.com/jjm2473/rtd1295-blob/master/scripts/install.sh
@@ -18,10 +18,10 @@
     opkg update
     exit
     ```
-3. 软件源安装完成!
+3. 软件源安装完成!
 
 ### 安装软件
-软件源安装完以后, 就可以像正常的Openwrt路由器那样安装软件了.
+软件源安装完以后, 就可以像正常的Openwrt路由器那样安装软件了.
 
 一般在设备的Openwrt页面, 进入"系统/软件包"(System/Software)进行搜索和安装.
 
