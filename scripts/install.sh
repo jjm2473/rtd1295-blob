@@ -9,6 +9,8 @@ if grep -q rtd1295-blob /etc/opkg/customfeeds.conf; then
 else 
     echo '
 src/gz blob_base https://raw.githubusercontent.com/jjm2473/rtd1295-blob/openwrt-cc-packages/base
-src/gz blob_packages https://raw.githubusercontent.com/jjm2473/rtd1295-blob/openwrt-cc-packages/packages' >> /etc/opkg/customfeeds.conf;
+src/gz blob_packages https://raw.githubusercontent.com/jjm2473/rtd1295-blob/openwrt-cc-packages/packages
+src/gz blob_luci https://raw.githubusercontent.com/jjm2473/rtd1295-blob/openwrt-cc-packages/luci
+' >> /etc/opkg/customfeeds.conf;
 
 fi
