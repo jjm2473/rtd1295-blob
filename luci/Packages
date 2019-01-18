@@ -1,0 +1,702 @@
+Package: luci-app-transmission
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 3405
+Filename: luci-app-transmission_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 4173
+MD5Sum: ef18a54c2453e3f4b732af115d9c481d
+SHA256sum: 10f7874dd22e3fb6500e1e1dfcb9ecc3c64208d553ac7ed1c8bc124ed569c6ad
+Description:  LuCI Support for Transmission
+
+Package: luci-base
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: rtd1295
+Installed-Size: 124550
+Filename: luci-base_git-18.097.75958-5537d68ec-1_rtd1295.ipk
+Size: 125396
+MD5Sum: 36fefd9e453852e1ed6a46846a6772c1
+SHA256sum: 6ee2ad08bad6ae4b037df702aacf18a0fe93487d2723c13455c4e3a40bb20244
+Description:  LuCI core libraries
+
+Package: luci-i18n-base-ca
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 16262
+Filename: luci-i18n-base-ca_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 17035
+MD5Sum: 30f9237238f16a38def738662b4ec00e
+SHA256sum: 9a6c03fe8bb851ecfca961b81fe78878d4bc0f72a02d26a6994a2f426a41b3cc
+Description:  Translation for luci-base - Català (Catalan)
+
+Package: luci-i18n-base-cs
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 20580
+Filename: luci-i18n-base-cs_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 21397
+MD5Sum: 5e46c4fe109b032accd737e575e3d281
+SHA256sum: 2c989abf2a29fee8b527bdf903b4a2d3c424b29be3619b4500605fa4ed0b7812
+Description:  Translation for luci-base - Čeština (Czech)
+
+Package: luci-i18n-base-de
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 20239
+Filename: luci-i18n-base-de_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 21049
+MD5Sum: 729dd24a7327b7131fb9179234b77bec
+SHA256sum: 7ff08922930e4e0a070d1463f10c5856ea8a30029283678104c4bb2bc8e2231d
+Description:  Translation for luci-base - Deutsch (German)
+
+Package: luci-i18n-base-el
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 17353
+Filename: luci-i18n-base-el_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 18213
+MD5Sum: c0516e4959f3c2171593fa404da15d96
+SHA256sum: dfd9b1a4a0a2fd9659f9f728933fe53527111bed586d4fd66d53a134b94cda70
+Description:  Translation for luci-base - Ελληνικά (Greek)
+
+Package: luci-i18n-base-en
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 725
+Filename: luci-i18n-base-en_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1520
+MD5Sum: 59b5fdff67588139727e1d92eec0e1ee
+SHA256sum: 6fcd1f82bb689c7fe3bd9e03779f4cc05ed6dcf55864c1d620de72e15c68e948
+Description:  Translation for luci-base - English
+
+Package: luci-i18n-base-es
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 20808
+Filename: luci-i18n-base-es_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 21635
+MD5Sum: d05b90fb15c845affbc28f58ac3cadcb
+SHA256sum: 87e160fa6e9bf73f1bdf8ee8d11b1c9b2b94cbf1a8da2fdd9b171e14e1cf296c
+Description:  Translation for luci-base - Español (Spanish)
+
+Package: luci-i18n-base-fr
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 20968
+Filename: luci-i18n-base-fr_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 21801
+MD5Sum: ef3f81ec302d84de6e0980a47ff9b8b8
+SHA256sum: fb772b31a6569e0381ac1e0ddbaa93d68f53f0a390f74c8dc54acc74b7c361fc
+Description:  Translation for luci-base - Français (French)
+
+Package: luci-i18n-base-he
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 6902
+Filename: luci-i18n-base-he_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 7772
+MD5Sum: 67e6d7fe3c4546cacda6f2f489010368
+SHA256sum: dc98315b3ada7da34cd1d038a212de8b3883527e1191b2d1f72b7fbe8e53ce85
+Description:  Translation for luci-base - עִבְרִית (Hebrew)
+
+Package: luci-i18n-base-hu
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 21602
+Filename: luci-i18n-base-hu_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 22440
+MD5Sum: 3669fb93a2d9a382973b6463751ba55c
+SHA256sum: ee19aa36aabc5307784c5c0dcfa0621bac98a7311af043f45aa91f4b09f02ad1
+Description:  Translation for luci-base - Magyar (Hungarian)
+
+Package: luci-i18n-base-it
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 16555
+Filename: luci-i18n-base-it_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 17399
+MD5Sum: 99e31239b9f1557561f87b17715d3e06
+SHA256sum: 3d7af10b1443a7fb179cf218774309e240bd48bdd8717662da94513332a0534d
+Description:  Translation for luci-base - Italiano (Italian)
+
+Package: luci-i18n-base-ja
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 20300
+Filename: luci-i18n-base-ja_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 21121
+MD5Sum: e5e330d6c2be044a09a4d5f5411a9179
+SHA256sum: 8559af10b773e1d2dd841aaf30c955fff572fb65f6da8cdb7680d426783c94d5
+Description:  Translation for luci-base - 日本語 (Japanese)
+
+Package: luci-i18n-base-ms
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 7467
+Filename: luci-i18n-base-ms_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 8319
+MD5Sum: 4241809165a28381cfee6193902bee3e
+SHA256sum: ae949d9a6bd252e57be11878f3dc9eb40f534877216bfbd7b3a945244f22eb04
+Description:  Translation for luci-base - Bahasa Melayu (Malay)
+
+Package: luci-i18n-base-no
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 20186
+Filename: luci-i18n-base-no_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 20981
+MD5Sum: b8dbb09e34e55f628aeb8e0af3ce3897
+SHA256sum: aa88203d0f5babe546b90f61cf9db091bed3fd95cb21b6f7a2f89e6e5e3211df
+Description:  Translation for luci-base - Norsk (Norwegian)
+
+Package: luci-i18n-base-pl
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 21433
+Filename: luci-i18n-base-pl_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 22244
+MD5Sum: 88fa50c0dd3aa8f6d5040b33781a2558
+SHA256sum: 9756ebc50ae8eeaa00f7812d543cb75973bd9c0a5b08cde99b6e04795e758d45
+Description:  Translation for luci-base - Polski (Polish)
+
+Package: luci-i18n-base-pt-br
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 21519
+Filename: luci-i18n-base-pt-br_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 22374
+MD5Sum: 84a8d698e3ec995dc7da9a07300c906c
+SHA256sum: e2cecb545b678b5bea37a5b7f6976485809c874f69bc92c2bf345c0246ffdc02
+Description:  Translation for luci-base - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-base-pt
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 18646
+Filename: luci-i18n-base-pt_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 19448
+MD5Sum: 1dbea40e667023a8a29485cc83ddf264
+SHA256sum: c74b33c6fe5e96ac6932fe74587602a4431e2903234110fef5e21cb5adb967a5
+Description:  Translation for luci-base - Português (Portuguese)
+
+Package: luci-i18n-base-ro
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 10368
+Filename: luci-i18n-base-ro_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 11182
+MD5Sum: 90e85f02deb7d91eec509f344349f941
+SHA256sum: 0ff75027139b65c362ff4f3ef305759a13eb51a04cde220b9a039607ca781f4b
+Description:  Translation for luci-base - Română (Romanian)
+
+Package: luci-i18n-base-ru
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 28126
+Filename: luci-i18n-base-ru_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 28999
+MD5Sum: 7741b29576ad5370c4785e522f76e861
+SHA256sum: e9c08726f91a194c7b913d498ae134ad4ae34315c27a1e5272b54086acb910f9
+Description:  Translation for luci-base - Русский (Russian)
+
+Package: luci-i18n-base-sk
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 318
+Filename: luci-i18n-base-sk_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1119
+MD5Sum: 17944934a4087ed8a3084298e1b35bdb
+SHA256sum: 578e475ea869022d6d35d335d01d6ed33924c72046920b61de17acb3e00c602e
+Description:  Translation for luci-base - Slovenčina (Slovak)
+
+Package: luci-i18n-base-sv
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 832
+Filename: luci-i18n-base-sv_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1646
+MD5Sum: 8e6aced3459d48af00ccd2539e3ab070
+SHA256sum: 613dd63663d1967c3f96c8a8e11fd94e243abbeaaa1bc3dfd3057646e3654512
+Description:  Translation for luci-base - Svenska (Swedish)
+
+Package: luci-i18n-base-tr
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 2798
+Filename: luci-i18n-base-tr_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 3592
+MD5Sum: 64db97d683af1abeee844ae4b3f6c55e
+SHA256sum: ea11f4d61f3d76030caa9ea345c18777bb9cb72c7323d5c762da26652468e9c2
+Description:  Translation for luci-base - Türkçe (Turkish)
+
+Package: luci-i18n-base-uk
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 24618
+Filename: luci-i18n-base-uk_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 25466
+MD5Sum: fd625754ffab4aa081c3bf1612736595
+SHA256sum: a47eafde78f190685d6aa8ed7330c090b34fafa91e1d3dbd0072fbd4f3815e38
+Description:  Translation for luci-base - украї́нська (Ukrainian)
+
+Package: luci-i18n-base-vi
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 6543
+Filename: luci-i18n-base-vi_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 7391
+MD5Sum: 5998524767e7c163a6e46a8f8a9944b7
+SHA256sum: 0596691ca97140693a28607d7375137eab7d72646103e83e234a2b336f12f50e
+Description:  Translation for luci-base - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-base-zh-cn
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 21487
+Filename: luci-i18n-base-zh-cn_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 22277
+MD5Sum: fcf86f8848285e1c9d41a598ff47b41c
+SHA256sum: 54332dabd55f0a13e2f36ed6ab747ce36ff6aeabcef999c669b31f556781529e
+Description:  Translation for luci-base - 中文 (Chinese)
+
+Package: luci-i18n-base-zh-tw
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-base
+Source: /root/home/src/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 21190
+Filename: luci-i18n-base-zh-tw_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 22005
+MD5Sum: 07f5d82cd088fa8ecea6c79187ce7a52
+SHA256sum: 5baf1b0db18f7896edb29e4405abaced30bed90f8cb81f556fc15fc6d8c93853
+Description:  Translation for luci-base - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-transmission-ca
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 1674
+Filename: luci-i18n-transmission-ca_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 2490
+MD5Sum: a57a2d79ed88437c7c209b9147dbaa6d
+SHA256sum: e28d9645ca369cc963b47bc84dce05e0cc4ba6e9ba89906472226ad93246bba5
+Description:  Translation for luci-app-transmission - Català (Catalan)
+
+Package: luci-i18n-transmission-cs
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 2096
+Filename: luci-i18n-transmission-cs_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 2920
+MD5Sum: 63b3907e7d40492d5a3561c198f45f58
+SHA256sum: 4341be83c0eef918c809525950dbd0ea846641f1107d6681dec23f9ad44696a4
+Description:  Translation for luci-app-transmission - Čeština (Czech)
+
+Package: luci-i18n-transmission-de
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 2750
+Filename: luci-i18n-transmission-de_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 3534
+MD5Sum: 8b3112dc4ac91c72e279b3018d283c77
+SHA256sum: 0d908737c263e5e0678994056efe69745a4ae627de57a99a7c9e278bdaf14cc3
+Description:  Translation for luci-app-transmission - Deutsch (German)
+
+Package: luci-i18n-transmission-el
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 336
+Filename: luci-i18n-transmission-el_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1159
+MD5Sum: 6fc66a6677c8bf694430429541447eb5
+SHA256sum: c273841e134f17ec037b5c0006bec07991988befd9995f1f1723ccde4fa23dd0
+Description:  Translation for luci-app-transmission - Ελληνικά (Greek)
+
+Package: luci-i18n-transmission-en
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 308
+Filename: luci-i18n-transmission-en_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1103
+MD5Sum: 06f7257be510562521c4f7c05107dbb1
+SHA256sum: 69a32159423bc0f47097db815e02e20c3168815c2ef843bf8fc7e912b5ea6406
+Description:  Translation for luci-app-transmission - English
+
+Package: luci-i18n-transmission-es
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 2687
+Filename: luci-i18n-transmission-es_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 3471
+MD5Sum: 9314f054edd228e956f752a05f3f65aa
+SHA256sum: 4f93c11b7111f5a97b02031012b8a12595b84e7645dc4d443bd5d74227716360
+Description:  Translation for luci-app-transmission - Español (Spanish)
+
+Package: luci-i18n-transmission-fr
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 322
+Filename: luci-i18n-transmission-fr_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1130
+MD5Sum: fdf10fab3bf7d09ffdf50bea19b69ea0
+SHA256sum: 801cfe072869c782f8d5ec409d594bb7bad314f45e9e8f4363cf170014767b0a
+Description:  Translation for luci-app-transmission - Français (French)
+
+Package: luci-i18n-transmission-he
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 338
+Filename: luci-i18n-transmission-he_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1167
+MD5Sum: c34df9d3092c55627679cf741742a38a
+SHA256sum: 20aeca63252f2bde29c02c0c9c17b644faf0ca4558cd5cd281b018957acc42dc
+Description:  Translation for luci-app-transmission - עִבְרִית (Hebrew)
+
+Package: luci-i18n-transmission-hu
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 2759
+Filename: luci-i18n-transmission-hu_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 3548
+MD5Sum: 7e08387104acfbeb5a66cc79ebfa833f
+SHA256sum: 590d01abfc397860513714908fffadf3d94321ff99a122580e3d4f91a64b37fc
+Description:  Translation for luci-app-transmission - Magyar (Hungarian)
+
+Package: luci-i18n-transmission-it
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 648
+Filename: luci-i18n-transmission-it_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1453
+MD5Sum: f2bd75af7cb0ae97093537a17d7399d0
+SHA256sum: 1cd897a51cd2d38133e52c55a8f95728873444f095815182de1de84f83fa38d6
+Description:  Translation for luci-app-transmission - Italiano (Italian)
+
+Package: luci-i18n-transmission-ja
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 2235
+Filename: luci-i18n-transmission-ja_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 3068
+MD5Sum: 4321513c3c544e6dead2a6f06d1a2b2c
+SHA256sum: e1b2c1019a86c2867026842791f8d3155c4cc0b61ab656c4899b38cec3fd818e
+Description:  Translation for luci-app-transmission - 日本語 (Japanese)
+
+Package: luci-i18n-transmission-ms
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 324
+Filename: luci-i18n-transmission-ms_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1131
+MD5Sum: 9739773ad1ea75b3023f547cdb8cfcff
+SHA256sum: 597a9eaadb92ac73f4ae818bd65c3a243f915d21650804855ecf7422e3ef9cf9
+Description:  Translation for luci-app-transmission - Bahasa Melayu (Malay)
+
+Package: luci-i18n-transmission-no
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 1760
+Filename: luci-i18n-transmission-no_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 2576
+MD5Sum: ac8c1521b7537de9289ca576558ab688
+SHA256sum: 3a9d351b982a8f5c2aa964bdd19a042a8b397f1d5b8a1bf9347957ca8ea1b021
+Description:  Translation for luci-app-transmission - Norsk (Norwegian)
+
+Package: luci-i18n-transmission-pl
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 2877
+Filename: luci-i18n-transmission-pl_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 3662
+MD5Sum: 0743fe197dda9b304b3d4014f84442f1
+SHA256sum: f9982dfeff6e2f9be67c41ee1dfdc59520348df3841d614ee59da5e9dd5336e4
+Description:  Translation for luci-app-transmission - Polski (Polish)
+
+Package: luci-i18n-transmission-pt-br
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 2833
+Filename: luci-i18n-transmission-pt-br_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 3639
+MD5Sum: 50e31ae0ab0f79adec9daf41480cefe9
+SHA256sum: 4c75159e816df3c92a1f4bb9d28ff778b55a4f6d26caae5c0a3304ae7cff345e
+Description:  Translation for luci-app-transmission - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-transmission-pt
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 1012
+Filename: luci-i18n-transmission-pt_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1818
+MD5Sum: 56116a1caca075f8ecb5dd2e151d41a1
+SHA256sum: 4d9e541440b96594b7a386801a05daa19a5d5c458e10937336a204621b505bf9
+Description:  Translation for luci-app-transmission - Português (Portuguese)
+
+Package: luci-i18n-transmission-ro
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 706
+Filename: luci-i18n-transmission-ro_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1519
+MD5Sum: 7e5ccf493fb0fd3cc70dcd75d5399143
+SHA256sum: 8b0ec587e5a53973446997acabfdbb603c4e4abb8d6b0dd83f1ed51df6bef0ce
+Description:  Translation for luci-app-transmission - Română (Romanian)
+
+Package: luci-i18n-transmission-ru
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 3429
+Filename: luci-i18n-transmission-ru_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 4248
+MD5Sum: 59753e912212d0879945033107032ce9
+SHA256sum: 3138837729886a0e4cdcb28968f8f0733e299c9fa2ff6824848330691aaf67d3
+Description:  Translation for luci-app-transmission - Русский (Russian)
+
+Package: luci-i18n-transmission-sk
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 322
+Filename: luci-i18n-transmission-sk_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1127
+MD5Sum: a4257770c76d1461c934da271bfde993
+SHA256sum: 7e0e4ee62a1ee7ad0de8ac1df1bbb6e54d0211b81db9071993cd7c0242778dc0
+Description:  Translation for luci-app-transmission - Slovenčina (Slovak)
+
+Package: luci-i18n-transmission-sv
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 1695
+Filename: luci-i18n-transmission-sv_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 2509
+MD5Sum: c87b71d1450d50a21a2257799dc6d701
+SHA256sum: 318f6ab785a01bc0d6bd9a2883109617935784190546522c49be8d8ee3100070
+Description:  Translation for luci-app-transmission - Svenska (Swedish)
+
+Package: luci-i18n-transmission-tr
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 323
+Filename: luci-i18n-transmission-tr_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1136
+MD5Sum: 2f4dcf6cb0c4daeea0bd226b8d31ada9
+SHA256sum: a272fd5d357de902d0bd584f81bd223c29416ba3e6aaba1b64f4848a7dd28d99
+Description:  Translation for luci-app-transmission - Türkçe (Turkish)
+
+Package: luci-i18n-transmission-uk
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 499
+Filename: luci-i18n-transmission-uk_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1340
+MD5Sum: fedb7a3da035a589d1e8690a50b71afa
+SHA256sum: 752522403a0b4f0eca078231f7d056378afca53651ab7ecea764720e00a1dccd
+Description:  Translation for luci-app-transmission - украї́нська (Ukrainian)
+
+Package: luci-i18n-transmission-vi
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 343
+Filename: luci-i18n-transmission-vi_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 1164
+MD5Sum: 988ae5f599e72b0cdf346f68ffe85fb2
+SHA256sum: 4da8c2b410ed02a70b92015f739b61f15767ee945962c113f9430bf328587fcf
+Description:  Translation for luci-app-transmission - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-transmission-zh-cn
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 2566
+Filename: luci-i18n-transmission-zh-cn_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 3395
+MD5Sum: 5d94fd5b46f1df6b0b433cbd1efacd96
+SHA256sum: 30f0c023a74811d21267d6c32e09c813699bec3f8ead1a89efef02944899d053
+Description:  Translation for luci-app-transmission - 中文 (Chinese)
+
+Package: luci-i18n-transmission-zh-tw
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, luci-app-transmission
+Source: /root/home/src/luci/applications/luci-app-transmission
+Section: luci
+Architecture: all
+Installed-Size: 2592
+Filename: luci-i18n-transmission-zh-tw_git-18.097.75958-5537d68ec-1_all.ipk
+Size: 3435
+MD5Sum: 8b36ec6ac21c7ff46b2074cacd0d7f75
+SHA256sum: 1bd9b8e880e899d94e85c8edc7fafa91d3233bed809072959efd07b0546e37aa
+Description:  Translation for luci-app-transmission - 臺灣華語 (Taiwanese)
+
+Package: luci-lib-ip
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, liblua, libnl-tiny
+Source: /root/home/src/luci/libs/luci-lib-ip
+Section: luci
+Architecture: rtd1295
+Installed-Size: 9054
+Filename: luci-lib-ip_git-18.097.75958-5537d68ec-1_rtd1295.ipk
+Size: 9797
+MD5Sum: a55b5e3fd72b49634a0dad1d00e8337b
+SHA256sum: f07969ca0de301fb60e659daac4785402afd431d3bdbf208446de23234a07b4b
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-nixio
+Version: git-18.097.75958-5537d68ec-1
+Depends: libc, librt, libpthread, liblua
+Source: /root/home/src/luci/libs/luci-lib-nixio
+Section: luci
+Architecture: rtd1295
+Installed-Size: 29466
+Filename: luci-lib-nixio_git-18.097.75958-5537d68ec-1_rtd1295.ipk
+Size: 29990
+MD5Sum: 0902dbc9795c3a1b83b01edd8b4174cf
+SHA256sum: 0b7e7e0a52d2029242e7eac3a2fcd4b9fba3fd8fa9c0c2ee9f42e98aa75d903f
+Description:  NIXIO POSIX library
+

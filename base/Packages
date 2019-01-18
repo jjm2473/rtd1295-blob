@@ -30,6 +30,32 @@ SHA256sum: 90407d468a337d4f2b09836cb59dfd3aae65bee05322754d33cf370049747e1e
 Description:  The blkid program is the command-line interface to working with the libblkid
  library.
 
+Package: ca-bundle
+Version: 20180409-3
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/system/ca-certificates
+Section: base
+Architecture: all
+Installed-Size: 119650
+Filename: ca-bundle_20180409-3_all.ipk
+Size: 120509
+MD5Sum: 9297d17cf0fc6580b581731cec9db94c
+SHA256sum: 5313082ba488a9e98c2b825eeb405f346ce6d4d718eee8a2d1c4563babbae319
+Description:  System CA certificates as a bundle
+
+Package: ca-certificates
+Version: 20180409-3
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/system/ca-certificates
+Section: base
+Architecture: all
+Installed-Size: 133751
+Filename: ca-certificates_20180409-3_all.ipk
+Size: 134571
+MD5Sum: 502c9adc48daa8417baddb765262c59f
+SHA256sum: 3b45c27bb4808507f9ca9935112d2632f06d68258ad9a94c9c1e020b5b4d4cfa
+Description:  System CA certificates
+
 Package: cal
 Version: 2.25.2-4
 Depends: libc, librt, libpthread, libncurses
@@ -168,6 +194,36 @@ MD5Sum: afe2a7fea40f58a4dd8352585187f2e8
 SHA256sum: 16662c1c5caaa16d78e6a9a0ce670975dd19734e3cf21194a5547a245b5c2535
 Description:  hwclock is a tool for accessing the Hardware Clock
 
+Package: iwinfo
+Version: 2015-06-01-ade8b1b299cbd5748db1acf80dd3e9f567938371
+Depends: libc, librt, libpthread, libiwinfo
+Source: /root/home/src/chaos_calmer/package/network/utils/iwinfo
+License: GPL-2.0
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 6140
+Filename: iwinfo_2015-06-01-ade8b1b299cbd5748db1acf80dd3e9f567938371_rtd1295.ipk
+Size: 6944
+MD5Sum: 3a6b44a75a31c082c0c7bbb2209268d4
+SHA256sum: f10c2d53e635d0589d7e459fd79b5ece3a9f6908841cd764bbdbeab2c903903c
+Description:  Command line frontend for the wireless information library.
+
+Package: jshn
+Version: 2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb
+Depends: libc, librt, libpthread, libjson-c, libubox, libblobmsg-json
+Source: /root/home/src/chaos_calmer/package/libs/libubox
+License: ISC
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 5911
+Filename: jshn_2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb_rtd1295.ipk
+Size: 6715
+MD5Sum: 759b2bbe35ace5abe60d49449f15432a
+SHA256sum: 5d98ab06a6b7fcd402ad6366f38de391cf4102945d161564deb2f0b561f62e28
+Description:  Library for parsing and generating JSON from shell scripts
+
 Package: ldconfig
 Version: 2.19-1
 Source: /root/home/src/chaos_calmer/package/libs/toolchain
@@ -234,6 +290,21 @@ Description:  The libblkid library is used to identify block devices (disks) as 
  content (e.g. filesystem type, partitions) as well as extracting additional
  information such as filesystem labels/volume names, partitions, unique
  identifiers/serial numbers...
+
+Package: libblobmsg-json
+Version: 2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb
+Depends: libc, librt, libpthread, libjson-c, libubox
+Source: /root/home/src/chaos_calmer/package/libs/libubox
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 3772
+Filename: libblobmsg-json_2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb_rtd1295.ipk
+Size: 4531
+MD5Sum: 315a8ceecde293fb3ecd65a2d7541eac
+SHA256sum: ae7c607442b60333db8b82a9393734efdf2d6a494e64e1fe17e6dc865489860a
+Description:  blobmsg <-> json conversion library
 
 Package: libcurl
 Version: 7.52.1-2
@@ -459,6 +530,88 @@ MD5Sum: 9e5b24245bd04c15c52fb76c8aa269bb
 SHA256sum: 79533c64c5ddea40d99770dccff6f80982b9ea06fd36845fd709aa09867a2b29
 Description:  Stub header for the GNU Internationalization library
 
+Package: libiwinfo-lua
+Version: 2015-06-01-ade8b1b299cbd5748db1acf80dd3e9f567938371
+Depends: libc, librt, libpthread, libiwinfo, liblua
+Source: /root/home/src/chaos_calmer/package/network/utils/iwinfo
+License: GPL-2.0
+Section: lang
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 6272
+Filename: libiwinfo-lua_2015-06-01-ade8b1b299cbd5748db1acf80dd3e9f567938371_rtd1295.ipk
+Size: 7102
+MD5Sum: 862f26db8ab60c3c47e6d178cc4cb50f
+SHA256sum: 480b87f0bbca8e5c722e74ace2fbc0acda5bfb49a1e73f9a7eddb56bf6d78448
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
+
+Package: libiwinfo
+Version: 2015-06-01-ade8b1b299cbd5748db1acf80dd3e9f567938371
+Depends: libc, librt, libpthread, libnl-tiny, libuci
+Source: /root/home/src/chaos_calmer/package/network/utils/iwinfo
+License: GPL-2.0
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 23451
+Filename: libiwinfo_2015-06-01-ade8b1b299cbd5748db1acf80dd3e9f567938371_rtd1295.ipk
+Size: 24236
+MD5Sum: 9525b15bca38b50b25d83bd7222dcdeb
+SHA256sum: 8b04288b033dfa5ad2a298c2110513342e8d964bf3fcc01828478b8ecb1f281a
+Description:  Wireless information library with consistent interface for proprietary Broadcom,
+ madwifi, nl80211 and wext driver interfaces.
+
+Package: libjson-c
+Version: 0.12-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/libjson-c
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 14120
+Filename: libjson-c_0.12-1_rtd1295.ipk
+Size: 14897
+MD5Sum: 638153f4e3a4b7ece758efb1699a034f
+SHA256sum: 1a5256df6e7188bb41a28daf3ae1b4939fd22f166896ee5c54f9f59a5934115e
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script
+Version: 2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb
+Depends: libc, librt, libpthread, libubox
+Source: /root/home/src/chaos_calmer/package/libs/libubox
+License: ISC
+Section: utils
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 4865
+Filename: libjson-script_2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb_rtd1295.ipk
+Size: 5628
+MD5Sum: 7ed35976d303def9b9ca4b1fe828e99f
+SHA256sum: bf7f9e39af61069f250cf94594706783cf511f7d4de8e39e42cd3fda3295cc57
+Description:  Minimalistic JSON based scripting engine
+
+Package: liblua
+Version: 5.1.5-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 63004
+Filename: liblua_5.1.5-1_rtd1295.ipk
+Size: 63858
+MD5Sum: 64bfef111fc6ac97b346dd1b8648d973
+SHA256sum: 3ca31739d0bb943ac3f46859f85448dc95783d13edfbc403121cee6253d745a5
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
 Package: libmbedtls
 Version: 2.4.0-2
 Depends: libc, librt, libpthread
@@ -535,6 +688,21 @@ Size: 237918
 MD5Sum: ba3fc7b2275abac5af8d92df03b6c643
 SHA256sum: 024affe2b14fcad15d3a4dcdf7a55932bdda1076b23c2911a0732922faf0be1f
 Description:  GNU crypto library
+
+Package: libnl-tiny
+Version: 0.1-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/libnl-tiny
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 12747
+Filename: libnl-tiny_0.1-4_rtd1295.ipk
+Size: 13490
+MD5Sum: 09228d3b44152b9223f973359c4a958b
+SHA256sum: 133be01b03e7ecf482bf092feb167b6495d844f9c9cfe901bef7d4cf963079ce
+Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl
 Version: 1.0.2n-1
@@ -652,6 +820,96 @@ MD5Sum: a25f40d64fdefc8cf83750492d567a26
 SHA256sum: f21911e41918745a5a95d858555c764e700085979afb8a59932ec899caf52277
 Description:  POSIX thread library debugging support
 
+Package: libubox-lua
+Version: 2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb
+Depends: libc, librt, libpthread, libubox, liblua
+Source: /root/home/src/chaos_calmer/package/libs/libubox
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 4081
+Filename: libubox-lua_2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb_rtd1295.ipk
+Size: 4852
+MD5Sum: 7d095e83af76ab62ae8c8384cefd6f51
+SHA256sum: 3391ab6cd89bbf635aee4710d2ae443e3ad81004708d2924277b3c96b08a903e
+Description:  Lua binding for the OpenWrt Basic utility library
+
+Package: libubox
+Version: 2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/libubox
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 17628
+Filename: libubox_2015-11-08-10429bccd0dc5d204635e110a7a8fae7b80d16cb_rtd1295.ipk
+Size: 18413
+MD5Sum: 400fdd1a8d88dd5187bf4af1665757b1
+SHA256sum: 1a5ec554ada99db959674e90f3fa3280cbece4323819bcc456199c7b7d73736b
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2015-05-25-f361bfa5fcb2daadf3b160583ce665024f8d108e
+Depends: libc, librt, libpthread, libubus, liblua
+Source: /root/home/src/chaos_calmer/package/system/ubus
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 5627
+Filename: libubus-lua_2015-05-25-f361bfa5fcb2daadf3b160583ce665024f8d108e_rtd1295.ipk
+Size: 6407
+MD5Sum: 4e9718dbc15b33787e3eda8623685d68
+SHA256sum: c2bb83d0e0a1b05e1762dce9185c3f388090376987257219f65d649c1f10efd0
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus
+Version: 2015-05-25-f361bfa5fcb2daadf3b160583ce665024f8d108e
+Depends: libc, librt, libpthread, libubox
+Source: /root/home/src/chaos_calmer/package/system/ubus
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 8586
+Filename: libubus_2015-05-25-f361bfa5fcb2daadf3b160583ce665024f8d108e_rtd1295.ipk
+Size: 9355
+MD5Sum: 6aafc66a6db383f6ae9e5133b40f8918
+SHA256sum: 0bca0bc2f0b46af7f9c511557b58d489cf60ad8feee3c75ba2c2f4021e1d753c
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2015-08-27.1-1
+Depends: libc, librt, libpthread, libuci, liblua
+Source: /root/home/src/chaos_calmer/package/system/uci
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 6387
+Filename: libuci-lua_2015-08-27.1-1_rtd1295.ipk
+Size: 7138
+MD5Sum: f207bb7bb3693ebfd1bdb1d9ec8b530e
+SHA256sum: 17681ef70de024e371ee79423fc7dbe540e1958d83963e563d7d5a9c168a99a6
+Description:  Lua plugin for UCI
+
+Package: libuci
+Version: 2015-08-27.1-1
+Depends: libc, librt, libpthread, libubox
+Source: /root/home/src/chaos_calmer/package/system/uci
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 15296
+Filename: libuci_2015-08-27.1-1_rtd1295.ipk
+Size: 16038
+MD5Sum: 6015fa09de1a6e94146cdba4bc0ad6dc
+SHA256sum: c0b5f5dabac565e856f0d931aeb66b20887eec53779ad409de618079d4106935
+Description:  C library for the Unified Configuration Interface (UCI)
+
 Package: libuuid
 Version: 2.25.2-4
 Depends: libc, librt, libpthread
@@ -731,6 +989,63 @@ Size: 23309
 MD5Sum: 0db25f2637f2e81585d596256cc13f12
 SHA256sum: 1932a57b677fee4b75227292e7cf4cfd1974ae9c0b464ab88a3603848d946db8
 Description:  lsblk lists information about all or the specified block devices
+
+Package: lua-examples
+Version: 5.1.5-1
+Depends: libc, librt, libpthread, lua
+Source: /root/home/src/chaos_calmer/package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 5304
+Filename: lua-examples_5.1.5-1_rtd1295.ipk
+Size: 6184
+MD5Sum: 9b586c4ea60e8f8043ace6a499b48634
+SHA256sum: 352e59059edad27da77ec7a2805ffc2a34adf82615eae69af0335d7db00f0a4a
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains Lua language examples.
+
+Package: lua
+Version: 5.1.5-1
+Depends: libc, librt, libpthread, liblua
+Source: /root/home/src/chaos_calmer/package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 5250
+Filename: lua_5.1.5-1_rtd1295.ipk
+Size: 6096
+MD5Sum: 55ed9a59386b23f968704aeb7b949be9
+SHA256sum: b84567c4a5a221b12e44b7d89828d0db0efe94e36d2d9b6b21d0cbc994c3faeb
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: luac
+Version: 5.1.5-1
+Depends: libc, librt, libpthread, liblua
+Source: /root/home/src/chaos_calmer/package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 6025
+Filename: luac_5.1.5-1_rtd1295.ipk
+Size: 6877
+MD5Sum: 6a022f7e7772edaa227a61a7bda92242
+SHA256sum: 0ae8bc0839907b3164a76a2395b020399aff20009935060c4487aacea2e2cfb0
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language compiler.
 
 Package: mcookie
 Version: 2.25.2-4
@@ -829,6 +1144,67 @@ SHA256sum: 082dd38c2f9e6ac955cfae03848bf3d42b1477be882a5c4a7e3c87038d712256
 Description:  rename will rename the specified files by replacing the first occurrence of
  expression in their name by replacement
 
+Package: rpcd-mod-file
+Version: 2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a
+Depends: libc, librt, libpthread, libubus, libubox, rpcd
+Source: /root/home/src/chaos_calmer/package/system/rpcd
+License: ISC
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 5865
+Filename: rpcd-mod-file_2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a_rtd1295.ipk
+Size: 6636
+MD5Sum: c5f2fb185c02dd10d3fcaeae8902629c
+SHA256sum: 81fef6f4d87ab4c673996f7584b27c40feff64eb18e1c03f65138fdd3e31f588
+Description:  Provides ubus calls for file and directory operations.
+
+Package: rpcd-mod-iwinfo
+Version: 2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a
+Depends: libc, librt, libpthread, libubus, libubox, rpcd, libiwinfo
+Source: /root/home/src/chaos_calmer/package/system/rpcd
+License: ISC
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 5713
+Filename: rpcd-mod-iwinfo_2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a_rtd1295.ipk
+Size: 6534
+MD5Sum: acac11c6de168e761981c90edd815021
+SHA256sum: 84e877a674a72c5a6c65b3bfe0093e45d52d691406d0dea939af6792b62d2900
+Description:  Provides ubus calls for accessing iwinfo data.
+
+Package: rpcd-mod-rpcsys
+Version: 2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a
+Depends: libc, librt, libpthread, libubus, libubox, rpcd
+Source: /root/home/src/chaos_calmer/package/system/rpcd
+License: ISC
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 3098
+Filename: rpcd-mod-rpcsys_2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a_rtd1295.ipk
+Size: 3887
+MD5Sum: 567e513590d20e5f1c2853d77d8fb8db
+SHA256sum: 39b563d5c45ee05efa1c72c199be7ac980a3dd2fee52a97a0609be9da40f5a96
+Description:  Provides ubus calls for sysupgrade and password changing.
+
+Package: rpcd
+Version: 2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a
+Depends: libc, librt, libpthread, libubus, libubox, libuci, libblobmsg-json
+Source: /root/home/src/chaos_calmer/package/system/rpcd
+License: ISC
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 19365
+Filename: rpcd_2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a_rtd1295.ipk
+Size: 20152
+MD5Sum: 48b2c233eb4de2a036b7260fd2d12316
+SHA256sum: 0fd2eb33406120105f6941c6c74fc7619e4c431fa6871092c23f694cce551cc2
+Description:  This package provides the UBUS RPC backend server to expose various
+ functionality to frontend programs via JSON-RPC.
+
 Package: script-utils
 Version: 2.25.2-4
 Depends: libc, librt, libpthread
@@ -905,6 +1281,51 @@ Size: 6553
 MD5Sum: afedd83133b0991b0930c33978eb8f5f
 SHA256sum: 1ac3d1b56e1e0f0daa2de860882380c889a56fe85e1d5c3287e95a09f5ae5bac
 Description:  Terminal Info Database (ncurses)
+
+Package: ubus
+Version: 2015-05-25-f361bfa5fcb2daadf3b160583ce665024f8d108e
+Depends: libc, librt, libpthread, libubus, libblobmsg-json, ubusd
+Source: /root/home/src/chaos_calmer/package/system/ubus
+License: LGPL-2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 4653
+Filename: ubus_2015-05-25-f361bfa5fcb2daadf3b160583ce665024f8d108e_rtd1295.ipk
+Size: 5414
+MD5Sum: aa0407bb15c22a9f378463c0eac1c614
+SHA256sum: 3ccee08af8b78c2c52ff0adea270c445ec69807e88405a8667fb5beb8d0f7179
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2015-05-25-f361bfa5fcb2daadf3b160583ce665024f8d108e
+Depends: libc, librt, libpthread, libubox
+Source: /root/home/src/chaos_calmer/package/system/ubus
+License: LGPL-2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 8217
+Filename: ubusd_2015-05-25-f361bfa5fcb2daadf3b160583ce665024f8d108e_rtd1295.ipk
+Size: 8987
+MD5Sum: 87cb4f38b0559dd890770220a707fdbf
+SHA256sum: 9a914d27c44403a06d48a945ef5af367b00472299408497afd5acf0f612c5394
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2015-08-27.1-1
+Depends: libc, librt, libpthread, libuci
+Source: /root/home/src/chaos_calmer/package/system/uci
+License: LGPL-2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 7664
+Filename: uci_2015-08-27.1-1_rtd1295.ipk
+Size: 8429
+MD5Sum: a337530e51e6c0cad02d435cfce46c7f
+SHA256sum: 9dcc115fb7692d4e971a5db29bc21ec707f2f55dbc96672d4caf6bbeb9201702
+Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: uuidd
 Version: 2.25.2-4
