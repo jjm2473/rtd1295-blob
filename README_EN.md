@@ -9,7 +9,7 @@
     ```
     ssh root@192.168.1.105
     ```
-2. Run these commands on the SSH session
+2. Run these commands in the SSH session
     ```
     cd /tmp
     wget https://raw.githubusercontent.com/jjm2473/rtd1295-blob/master/scripts/install.sh
