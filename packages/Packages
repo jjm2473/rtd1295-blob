@@ -1,3 +1,221 @@
+Package: aria2
+Version: 1.34.0-3
+Depends: libc, librt, libpthread, zlib, libstdcpp, libopenssl, libexpat
+Source: /root/home/src/openwrt-packages/net/aria2
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Require-User: aria2=6800:aria2=6800
+Maintainer: Imre Kaloz <kaloz@openwrt.org>, Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: rtd1295
+Installed-Size: 844039
+Filename: aria2_1.34.0-3_rtd1295.ipk
+Size: 844135
+MD5Sum: b90d94bc7dcc174fd6d5a1705f5fe6a4
+SHA256sum: 9d1867c75b1997fd0df909119342ca27569caa10701f08c2af174e8c0f67f918
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
+Package: attr
+Version: 20150220-1
+Depends: libc, librt, libpthread, libattr
+Source: /root/home/src/openwrt-packages/utils/attr
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: utils
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: rtd1295
+Installed-Size: 13462
+Filename: attr_20150220-1_rtd1295.ipk
+Size: 14204
+MD5Sum: cca577e848a9598928d54723950da4d2
+SHA256sum: 6d2d069d58a55543f23c1b7ccdc636be078316871e272c9c91a8ba5922e67d5b
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: avahi-autoipd
+Version: 0.6.31-12
+Depends: libc, librt, libpthread, libdaemon
+Source: /root/home/src/openwrt-packages/libs/avahi
+Section: net
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 14155
+Filename: avahi-autoipd_0.6.31-12_rtd1295.ipk
+Size: 15297
+MD5Sum: 1d9f56660d562b7b56a4cc40cb951718
+SHA256sum: 497847cfc34ec5e3c666392ed7e84aa1e7d647b3170d67107865384288f9f1ac
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package implements IPv4LL, "Dynamic Configuration of IPv4 Link-Local
+ Addresses" (IETF RFC3927), a protocol for automatic IP address configuration
+ from the link-local 169.254.0.0/16 range without the need for a central
+ server. It is primarily intended to be used in ad-hoc networks which lack a
+ DHCP server.
+
+Package: avahi-daemon-service-http
+Version: 0.6.31-12
+Depends: libc, librt, libpthread, avahi-daemon
+Source: /root/home/src/openwrt-packages/libs/avahi
+Section: net
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 386
+Filename: avahi-daemon-service-http_0.6.31-12_rtd1295.ipk
+Size: 1483
+MD5Sum: 236d5e054391157b8181f30d71495f6f
+SHA256sum: d102e28a58ec4d1440ea12f333c655b30a936c0261e14c11a7b0061ff4c05141
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains the service definition for announcing HTTP service.
+
+Package: avahi-daemon-service-ssh
+Version: 0.6.31-12
+Depends: libc, librt, libpthread, avahi-daemon
+Source: /root/home/src/openwrt-packages/libs/avahi
+Section: net
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 366
+Filename: avahi-daemon-service-ssh_0.6.31-12_rtd1295.ipk
+Size: 1468
+MD5Sum: ee677f7a7499ac00cb06f33814bd06ee
+SHA256sum: ec6db8f84b02aeb926224a08bf8784658626aafea950d224cd820321a1ea5379
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains the service definition for announcing SSH service.
+
+Package: avahi-dbus-daemon
+Version: 0.6.31-12
+Depends: libc, librt, libpthread, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Source: /root/home/src/openwrt-packages/libs/avahi
+Section: net
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 35312
+Filename: avahi-dbus-daemon_0.6.31-12_rtd1295.ipk
+Size: 36221
+MD5Sum: 71bf998c1c3ef0633e210d90d2c6c85d
+SHA256sum: 53b88b086fab6bf5488a10b35ce2ba83411fc8c04e15ab848452b71a56c41b03
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: avahi-dnsconfd
+Version: 0.6.31-12
+Depends: libc, librt, libpthread, libavahi, libdaemon, libpthread
+Source: /root/home/src/openwrt-packages/libs/avahi
+Section: net
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 7603
+Filename: avahi-dnsconfd_0.6.31-12_rtd1295.ipk
+Size: 8737
+MD5Sum: 644335f58cc0db2631c2c82aed62c010
+SHA256sum: cc108e7d84c675876e5fb329cedd9e18abce21a65722da118c26c38ae8112121
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains a Unicast DNS server from mDNS/DNS-SD configuration
+ daemon, which may be used to configure conventional DNS servers using mDNS
+ in a DHCP-like fashion. Especially useful on IPv6.
+
+Package: avahi-nodbus-daemon
+Version: 0.6.31-12
+Depends: libc, librt, libpthread, libavahi-nodbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Source: /root/home/src/openwrt-packages/libs/avahi
+Section: net
+Require-User: avahi=105:avahi=105
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 21233
+Filename: avahi-nodbus-daemon_0.6.31-12_rtd1295.ipk
+Size: 22266
+MD5Sum: 6597d1e00661836f286795bd8bc17acf
+SHA256sum: 142b8c0427ab40a62bb919a5919bd31bb2b43002971c0de33a0b18b75ea575f5
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: avahi-utils
+Version: 0.6.31-12
+Depends: libc, librt, libpthread, libavahi-client, libgdbm
+Source: /root/home/src/openwrt-packages/libs/avahi
+Section: net
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 28015
+Filename: avahi-utils_0.6.31-12_rtd1295.ipk
+Size: 28509
+MD5Sum: 17538795c90e0f2236c3719c1f186fcf
+SHA256sum: 2ca3d96befd5a2151f59985d848f515dcf6e437345325632998276121e7a3aa8
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages installs the following avahi utility programs:
+ avahi-browse, avahi-publish, avahi-resolve, avahi-set-host-name.
+ It also automatically adds the required libavahi-client package.
+ For more information please see the avahi documentation.
+
 Package: certtool
 Version: 3.4.15-1
 Depends: libc, librt, libpthread, libgnutls
@@ -18,6 +236,36 @@ Description:  GnuTLS is a secure communications library implementing the SSL, TL
  OpenPGP and other required structures. It is aimed to be portable and
  efficient with focus on security and interoperability.
  This package contains the GnuTLS certtool utility.
+
+Package: dbus-utils
+Version: 1.9.14-1
+Depends: libc, librt, libpthread, dbus
+Source: /root/home/src/openwrt-packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 16438
+Filename: dbus-utils_1.9.14-1_rtd1295.ipk
+Size: 17059
+MD5Sum: 80bad5d0237b94d657eedf10bdae7349
+SHA256sum: 1f2b889b4f6b40d4898addc08c9aaf9348a361fc4d11813da50433e918f00d63
+Description:  Simple interprocess messaging system (utilities)
+
+Package: dbus
+Version: 1.9.14-1
+Depends: libc, librt, libpthread, libexpat, libdbus
+Source: /root/home/src/openwrt-packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 98419
+Filename: dbus_1.9.14-1_rtd1295.ipk
+Size: 98621
+MD5Sum: e54df7633988e47993710084af502952
+SHA256sum: 2e82a93dea74fce17cc4e2ba8901e5b57940b7f98b2f2687546335934d5a494a
+Description:  Simple interprocess messaging system (daemon)
 
 Package: gnutls-utils
 Version: 3.4.15-1
@@ -62,6 +310,376 @@ Description:  GNU Libidn is a fully documented implementation of the Stringprep,
  Command line tool using libidn
  
 
+Package: jpeg-tools
+Version: 9a-1
+Depends: libc, librt, libpthread, libjpeg
+Source: /root/home/src/openwrt-packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 31672
+Filename: jpeg-tools_9a-1_rtd1295.ipk
+Size: 32407
+MD5Sum: b12419832c9441d44de2afd4290b872c
+SHA256sum: 56bbf620587ae0f22dff38c9cba233f53695068031815402895685e09fca5d58
+Description:  The Independent JPEG Group's JPEG manipulation tools
+
+Package: libantlr3c
+Version: 3.2-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/libantlr3c
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Espen Jürgensen <espenjurgensen+openwrt@gmail.com>
+Architecture: rtd1295
+Installed-Size: 31597
+Filename: libantlr3c_3.2-1_rtd1295.ipk
+Size: 32455
+MD5Sum: 8e0ca66c083ccc118e28ec3165c01e87
+SHA256sum: dff9d98931f4eabd8d0ee101f12bfa70c11783b8d6944f00e06e85705ec3dd2f
+Description:  ANother Tool for Language Recognition, is a language tool that provides a framework for constructing recognizers,
+ interpreters, compilers, and translators from grammatical descriptions containing actions in a variety of target languages.
+
+Package: libattr
+Version: 20150220-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/utils/attr
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: rtd1295
+Installed-Size: 6526
+Filename: libattr_20150220-1_rtd1295.ipk
+Size: 7314
+MD5Sum: 89eadd54ed34318bbedf3f25a506707a
+SHA256sum: 244afa95ef465a676c4b613c1daf605a04e4a0a35e1581a6fb4a07f3afb32539
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libavahi-client
+Version: 0.6.31-12
+Depends: libc, librt, libpthread, avahi-dbus-daemon
+Source: /root/home/src/openwrt-packages/libs/avahi
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 17673
+Filename: libavahi-client_0.6.31-12_rtd1295.ipk
+Size: 18743
+MD5Sum: 3e11b321e3e2367331ee886010457cd8
+SHA256sum: 82d3fc01f4f37902a9d4f2cf03700169e868124b9185a24b6ae3fe4119f61d50
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-compat-libdnssd
+Version: 0.6.31-12
+Depends: libc, librt, libpthread, libavahi-client
+Source: /root/home/src/openwrt-packages/libs/avahi
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 10094
+Filename: libavahi-compat-libdnssd_0.6.31-12_rtd1295.ipk
+Size: 11134
+MD5Sum: 46febd625fafa6430914992351ed56b9
+SHA256sum: bfed4c39bd0ee82942f3ac27f76b7d3e448fc4a59de7b161761069670b5bb4a0
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-compat-libdnssd library.
+ It also automatically adds the required libavahi-client package.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.6.31-12
+Depends: libc, librt, libpthread, dbus
+Provides: libavahi
+Source: /root/home/src/openwrt-packages/libs/avahi
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 65225
+Filename: libavahi-dbus-support_0.6.31-12_rtd1295.ipk
+Size: 65937
+MD5Sum: f1dbd2414fdb5aadfe33a6134d7ee0bf
+SHA256sum: a4f4bd5331cbfc28cff5c291154d684f83054269432fc61c7aafbd5296af1923
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libavahi-nodbus-support
+Version: 0.6.31-12
+Depends: libc, librt, libpthread, libpthread
+Provides: libavahi
+Source: /root/home/src/openwrt-packages/libs/avahi
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 64721
+Filename: libavahi-nodbus-support_0.6.31-12_rtd1295.ipk
+Size: 65336
+MD5Sum: 1fbab88322a9b090ec25abf2acd95cb0
+SHA256sum: a13a5e63ec7a403f1c331dfc98da295c15898c69421d1bf1e2851cd32c71749a
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built without support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+
+Package: libcap
+Version: 2.24-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/libcap
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 5802
+Filename: libcap_2.24-1_rtd1295.ipk
+Size: 6525
+MD5Sum: eaf409119f56b22dd86c795339361b4b
+SHA256sum: 68acec68c96dc0d6d242b164ccbcb048167c0bb4eb784b2192d78472a72d9d0c
+Description:  Linux capabilities library
+
+Package: libcares
+Version: 1.10.0-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/c-ares
+License: MIT
+Section: libs
+Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: rtd1295
+Installed-Size: 27344
+Filename: libcares_1.10.0-1_rtd1295.ipk
+Size: 28204
+MD5Sum: fe85c0cc79f7c3779f0f08cdbcc6ca28
+SHA256sum: 9050fcffcd2456885e4ce16fc9dc4bbeb35bf6d362ad0bd1de8aa34cbc0d6496
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libdaemon
+Version: 0.14-5
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/libdaemon
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 9025
+Filename: libdaemon_0.14-5_rtd1295.ipk
+Size: 10051
+MD5Sum: 599fc7675280df52313e578967dbc5c5
+SHA256sum: 44ddcfc5ee703318d18441b1cf391d2b96cdb6288cf08f420106c1e6caedd14e
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdbus
+Version: 1.9.14-1
+Depends: libc, librt, libpthread, libpthread
+Source: /root/home/src/openwrt-packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 101379
+Filename: libdbus_1.9.14-1_rtd1295.ipk
+Size: 101284
+MD5Sum: 91cd4379547187cd4946bc581ce42913
+SHA256sum: 0b34d878626907781337105c3a8e622a02fc91659f4f896aea7bb6baf2ebf4c5
+Description:  Simple interprocess messaging system (library)
+
+Package: libev
+Version: 4.19-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/libev
+License: BSD-2-Clause
+Section: libs
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: rtd1295
+Installed-Size: 19600
+Filename: libev_4.19-1_rtd1295.ipk
+Size: 20397
+MD5Sum: b3be586d648313e8eda72f503181550c
+SHA256sum: 97be6463505da1b99dd8594ac13175d16bed5e7c9510df53cf58b6dd841a5265
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libevent
+Version: 1.4.15-1
+Depends: libc, librt, libpthread, librt
+Source: /root/home/src/openwrt-packages/libs/libevent
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 84373
+Filename: libevent_1.4.15-1_rtd1295.ipk
+Size: 85224
+MD5Sum: cae274c5f11608049b12111207c9df16
+SHA256sum: 5b73dcd069dd4e665bf04abbc6d26e843fe93abc1a4dbeb17cc2b60516e24f59
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+
+Package: libexif
+Version: 0.6.21-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/libexif
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: rtd1295
+Installed-Size: 64319
+Filename: libexif_0.6.21-1_rtd1295.ipk
+Size: 64250
+MD5Sum: 4806cb24c649a5dcd3b6c4219b1cc39b
+SHA256sum: 6bc043bbe2013d8d41963ab3e793494344781a23aaaa41c734e4a64d9a5a72e5
+Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
+ intended to replace lots of redundant implementations in command-line
+ utilities and programs with GUIs.
+
+Package: libexpat
+Version: 2.1.0-3
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 50407
+Filename: libexpat_2.1.0-3_rtd1295.ipk
+Size: 51063
+MD5Sum: 8055073909583a5a5399fd89e6bccd23
+SHA256sum: cacb5edc2c6413ed018d35193022cd89b412f4d0b02ccf31a17ea502fb6702ce
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libflac
+Version: 1.3.1-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/flac
+License: GFDL-1.2 GPL-2 LGPL-2.1 BSD-3-Clause
+LicenseFiles: README COPYING.FDL COPYING.GPL COPYING.LGPL COPYING.Xiph
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 139895
+Filename: libflac_1.3.1-1_rtd1295.ipk
+Size: 140474
+MD5Sum: 7f5e2f03b70f3cc41852ce5b3759de0f
+SHA256sum: d56c404fb086df662e4014e86b4eceb1c0ba37155c20abc88ac30704e5e57cdb
+Description:  Free Lossless Audio Codec library
+
+Package: libgcrypt
+Version: 1.6.1-1
+Depends: libc, librt, libpthread, libgpg-error
+Source: /root/home/src/openwrt-packages/libs/libgcrypt
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: rtd1295
+Installed-Size: 291611
+Filename: libgcrypt_1.6.1-1_rtd1295.ipk
+Size: 290045
+MD5Sum: 574199a49677e3ba18932b269b75420e
+SHA256sum: d1c05faa9861041a83f8aa65f24b0f208cf12a9a6bc6edb0fafadf04c9c8cc05
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgdbm
+Version: 1.11-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/gdbm
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: rtd1295
+Installed-Size: 16385
+Filename: libgdbm_1.11-1_rtd1295.ipk
+Size: 17233
+MD5Sum: 5d8e16a5fad1ff1aa9357e25460ca40f
+SHA256sum: dd9ba009c00c2b4af6f3b1f8d95e9552d74407ff4a163576cbe9da4b09933471
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
 Package: libgnutls-openssl
 Version: 3.4.15-1
 Depends: libc, librt, libpthread, libgnutls
@@ -104,6 +722,41 @@ Description:  GnuTLS is a secure communications library implementing the SSL, TL
  efficient with focus on security and interoperability.
  This package contains the GnuTLS shared library, needed by other programs.
 
+Package: libgpg-error
+Version: 1.12-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/libgpg-error
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: rtd1295
+Installed-Size: 5767
+Filename: libgpg-error_1.12-1_rtd1295.ipk
+Size: 6638
+MD5Sum: a63d7ea80aa69679a2df195d3cce5449
+SHA256sum: df64c1d81cb97d7cbbdc4a7623e2c4521db35be5c5b19d56b9553e28d9dca1b7
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libid3tag
+Version: 0.15.1b-4
+Depends: libc, librt, libpthread, zlib
+Source: /root/home/src/openwrt-packages/libs/libid3tag
+License: GPL-2
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 26175
+Filename: libid3tag_0.15.1b-4_rtd1295.ipk
+Size: 26808
+MD5Sum: 5fdc02b3059718ba16f0d5a34ef49df8
+SHA256sum: 9244a1c53d0aeb2b469de42639b975f35aeb5715d4f2a29d8104b75e66a8ae52
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
+ ID3v1 and the various versions of ID3v2.
+
 Package: libidn
 Version: 1.32-1
 Depends: libc, librt, libpthread
@@ -124,6 +777,22 @@ Description:  GNU Libidn is a fully documented implementation of the Stringprep,
  
  Library only package
  
+
+Package: libjpeg
+Version: 9a-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 99695
+Filename: libjpeg_9a-1_rtd1295.ipk
+Size: 100496
+MD5Sum: 3dc0b2faae2ed4b5c1ffe3dfdc683a41
+SHA256sum: 119b60ab50ef28f0184aad6064ae062b2ef6d9bfc18ffe442a98e3ef6cff3daa
+Description:  The Independent JPEG Group's JPEG runtime library
 
 Package: libminiupnpc
 Version: 1.9-1
@@ -159,6 +828,26 @@ Description:  libnatpmp is an attempt to make a portable and fully compliant imp
  the NAT-PMP code to any event driven code.
  This package contains the shared library.
 
+Package: libogg
+Version: 1.3.2-2
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/libogg
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 9677
+Filename: libogg_1.3.2-2_rtd1295.ipk
+Size: 10570
+MD5Sum: db2f877b086e70eae63a43ace21df5a4
+SHA256sum: 185c0a7d06e2e9304df9227c4786ac1be95d6ea43dad92b6378a2d848367cde9
+Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
+ compressed bitstream into a more robust, useful form.  For example,
+ the Ogg bitstream makes seeking, time stamping and error recovery
+ possible, as well as mixing several sepearate, concurrent media
+ streams into a single physical bitstream.
+
 Package: libopenldap
 Version: 2.4.44-1
 Depends: libc, librt, libpthread, libopenssl, libsasl2, libpthread
@@ -175,6 +864,68 @@ Description:  OpenLDAP Software is an open source implementation of the
  Lightweight Directory Access Protocol (LDAP).
  This package contains the shared LDAP client libraries, needed by other programs.
 
+Package: libpam
+Version: 1.1.8-4
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/libpam
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: rtd1295
+Installed-Size: 192423
+Filename: libpam_1.1.8-4_rtd1295.ipk
+Size: 192339
+MD5Sum: c6ef1f1ccac0ccd2ced57610d9860dcc
+SHA256sum: 23e580a4443c64204b242868acce82bdbeca95cfd183103ce56117425738753d
+Description:  The Linux-PAM Pluggable Authentication Modules.
+
+Package: libpcre16
+Version: 8.41-2
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: rtd1295
+Installed-Size: 79662
+Filename: libpcre16_8.41-2_rtd1295.ipk
+Size: 80457
+MD5Sum: b51c48adfa476383e0b5db7c228aaf42
+SHA256sum: 73f4a77dbc225d0c4c7d1efd4bd063399e48015e44ca296dcc268c538d4451f5
+Description:  A Perl Compatible Regular Expression library (16bit support)
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: rtd1295
+Installed-Size: 86532
+Filename: libpcre_8.41-2_rtd1295.ipk
+Size: 87188
+MD5Sum: 17a7a4f68e1edd3093be9a0aee207857
+SHA256sum: 4aa86c3dc4e8cb176769d20191be2ae8517a05374166b66611eb520872b05d22
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpcrecpp
+Version: 8.41-2
+Depends: libc, librt, libpthread, libpcre, libstdcpp
+Source: /root/home/src/openwrt-packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: rtd1295
+Installed-Size: 12041
+Filename: libpcrecpp_8.41-2_rtd1295.ipk
+Size: 12810
+MD5Sum: 31dcea65d04d2b354568ed994d38b88c
+SHA256sum: 8fc4c21861e0bb1527b9b3b7b8a51b56e187b66acdd739845bbc25a97dcf40bc
+Description:  C++ wrapper for Perl Compatible Regular Expression library
+
 Package: libsasl2
 Version: 2.1.26-3
 Depends: libc, librt, libpthread, libopenssl
@@ -190,6 +941,61 @@ Size: 83101
 MD5Sum: 3205ab750c8793220912f02d4859118e
 SHA256sum: 8f52d49f0afc20d14b4b347730c4dd2ece3debfd5b960aed4dd939cbcbb9f589
 Description:  A general purpose authentication library
+
+Package: libsigcxx
+Version: 2.4.1-1
+Depends: libc, librt, libpthread, libstdcpp
+Source: /root/home/src/openwrt-packages/libs/libsigc++
+License: LGPL-2.1
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 12096
+Filename: libsigcxx_2.4.1-1_rtd1295.ipk
+Size: 12808
+MD5Sum: cfb5be1734b434daf4383e83a57450c3
+SHA256sum: 667f5d58df7913794855fc6b710ff2907e9ea4f3f5771673a4f108472b10017e
+Description:  It allows you to define signals and to connect those signals to any
+ callback function, either global or a member function, regardless of
+ whether it is static or virtual.
+
+Package: libsodium
+Version: 1.0.16-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/libs/libsodium
+License: ISC
+Section: libs
+Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
+Architecture: rtd1295
+Installed-Size: 89266
+Filename: libsodium_1.0.16-1_rtd1295.ipk
+Size: 90200
+MD5Sum: 28d69e4be79c4e0e77c1b3a7dfea278f
+SHA256sum: 6e6eecd3bd8445b2608bba4e3ab29ba931cd71dd881f496e5aeb744bd6ade9d8
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3
+Version: 3081101-1
+Depends: libc, librt, libpthread, libpthread
+Source: /root/home/src/openwrt-packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: rtd1295
+Installed-Size: 331094
+Filename: libsqlite3_3081101-1_rtd1295.ipk
+Size: 331489
+MD5Sum: 060d15b43357705b9dac9614f488d861
+SHA256sum: b006f1e78243bbb818ff10442648cb3b123b82fc072376993f957bdb0d347735
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
 
 Package: libssh2
 Version: 1.6.0-2
@@ -223,6 +1029,44 @@ MD5Sum: d2c1b5d645cf687c693bbcb0b8132ec7
 SHA256sum: 1f5580fa5bfbc5fcfda1b5e52c443f9a408cf95a824a9444f093bb612563fae6
 Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
  Distinguish Encoding Rules (DER) manipulation.
+
+Package: libtirpc
+Version: 1.1.4-1
+Depends: libc, librt, libpthread, libpthread
+Source: /root/home/src/openwrt-packages/libs/libtirpc
+License: BSD-3-Clause
+Section: libs
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: rtd1295
+Installed-Size: 60570
+Filename: libtirpc_1.1.4-1_rtd1295.ipk
+Size: 61090
+MD5Sum: ff39bbc29614facaac12cde75ed81260
+SHA256sum: f413e81674dcbbfffece5c561f5819ea04262ab34e8011dbd1d8d06e29cc12ef
+Description:  Library TI RPC for RPC bindings
+
+Package: libvorbis
+Version: 1.3.5-1
+Depends: libc, librt, libpthread, libogg
+Source: /root/home/src/openwrt-packages/libs/libvorbis
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: rtd1295
+Installed-Size: 191815
+Filename: libvorbis_1.3.5-1_rtd1295.ipk
+Size: 191833
+MD5Sum: c2c25419395c3e1b9e40074b77de7b71
+SHA256sum: c7922c50d409d876d2abe1993041719c3057e11833f6e14f9be2f5ea422b7553
+Description:  Vorbis is a general purpose audio and music encoding format
+ contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
+ MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
+ proprietary formats such as RealAudio G2 and Windows' flavor of the
+ month), the Vorbis CODEC specification belongs to the public domain.
+ All the technical details are published and documented, and any
+ software entity may make full use of the format without license
+ fee, royalty or patent concerns.
 
 Package: miniupnpc
 Version: 1.9-1
@@ -305,6 +1149,89 @@ SHA256sum: 1aec1bde4adec1db721ad9ada80445b155d80833844fff721ae3ba15dcc2c070
 Description:  Provides a way to load and enumerate PKCS11 modules. Provides a
  standard configuration setup for installing PKCS11 modules in such a
  way that they are discoverable.
+
+Package: shadowsocks-libev-config
+Version: 3.2.3-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/net/shadowsocks-libev
+License: GPL-3.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: rtd1295
+Installed-Size: 2778
+Filename: shadowsocks-libev-config_3.2.3-1_rtd1295.ipk
+Size: 3538
+MD5Sum: 4aefaeabdc3323803f77fb94596bf20c
+SHA256sum: ddf7440adfe0910a0e1ef9b5b78f35321695c36cb42a27631759fbf4163c2f53
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.2.3-1
+Depends: libc, librt, libpthread, libcares, libev, libmbedtls, libpcre, libpthread, libsodium, shadowsocks-libev-config, zlib
+Source: /root/home/src/openwrt-packages/net/shadowsocks-libev
+License: GPL-3.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: rtd1295
+Installed-Size: 57450
+Filename: shadowsocks-libev-ss-local_3.2.3-1_rtd1295.ipk
+Size: 58220
+MD5Sum: 562f0f2c60e1dc600d01a8c619dcc79e
+SHA256sum: 51fc13438b064910e11081b1c46f56f40cb8db13eed187c9434148ecaff2d1c2
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-server
+Version: 3.2.3-1
+Depends: libc, librt, libpthread, libcares, libev, libmbedtls, libpcre, libpthread, libsodium, shadowsocks-libev-config, zlib
+Source: /root/home/src/openwrt-packages/net/shadowsocks-libev
+License: GPL-3.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: rtd1295
+Installed-Size: 61389
+Filename: shadowsocks-libev-ss-server_3.2.3-1_rtd1295.ipk
+Size: 62127
+MD5Sum: 594c21d6c2b55f1362198fb93a468c1e
+SHA256sum: 8f7b2e44be175f87ab91fe304770d18acb20cef6d23965062a27854e53f361e8
+Description:  shadowsocks-libev ss-server
+
+Package: shadowsocks-libev-ss-tunnel
+Version: 3.2.3-1
+Depends: libc, librt, libpthread, libcares, libev, libmbedtls, libpcre, libpthread, libsodium, shadowsocks-libev-config, zlib
+Source: /root/home/src/openwrt-packages/net/shadowsocks-libev
+License: GPL-3.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: rtd1295
+Installed-Size: 49162
+Filename: shadowsocks-libev-ss-tunnel_3.2.3-1_rtd1295.ipk
+Size: 49944
+MD5Sum: 243cdadb13c5f8de2fde4c01f831ce87
+SHA256sum: 94350b573b033f77395a024b9049c1e21a3af2dbf7992e3bbd4d8b1a9dd9a414
+Description:  shadowsocks-libev ss-tunnel
+
+Package: sqlite3-cli
+Version: 3081101-1
+Depends: libc, librt, libpthread, libsqlite3, libncurses, libreadline
+Source: /root/home/src/openwrt-packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: utils
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: rtd1295
+Installed-Size: 350908
+Filename: sqlite3-cli_3081101-1_rtd1295.ipk
+Size: 351681
+MD5Sum: f2cb27921155b3329830d5473b9e7def
+SHA256sum: 3bc71fa5929a484a4618b546acbad1f95d1b4e44da37230f65ef5cb60f936aba
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains a terminal-based front-end to the SQLite (v3.x) library
+ that can evaluate queries interactively and display the results in multiple
+ formats.
 
 Package: transmission-cli-mbedtls
 Version: 2.94-2

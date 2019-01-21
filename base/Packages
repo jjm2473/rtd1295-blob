@@ -163,6 +163,21 @@ MD5Sum: be3ab088e26989312886d0054b0e2cf2
 SHA256sum: e7ed42df992416f8156f0c8da7527fcd7feb451b04dcd575f677fe8dc0e55a58
 Description:  manages flock locks from within shell scripts or the command line
 
+Package: genl
+Version: 4.0.0-1
+Depends: libc, librt, libpthread, libnl-tiny
+Source: /root/home/src/chaos_calmer/package/network/utils/iproute2
+License: GPL-2.0
+Section: net
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: rtd1295
+Installed-Size: 7228
+Filename: genl_4.0.0-1_rtd1295.ipk
+Size: 8024
+MD5Sum: 098c1f4688a9b56341ebc858aa9a981c
+SHA256sum: baed4f17cd266caa7413f361647ffc8180fb22172ef4f7f5a620ccdde788f1dd
+Description:  General netlink utility frontend
+
 Package: getopt
 Version: 2.25.2-4
 Depends: libc, librt, libpthread
@@ -193,6 +208,52 @@ Size: 16308
 MD5Sum: afe2a7fea40f58a4dd8352585187f2e8
 SHA256sum: 16662c1c5caaa16d78e6a9a0ce670975dd19734e3cf21194a5547a245b5c2535
 Description:  hwclock is a tool for accessing the Hardware Clock
+
+Package: ip-bridge
+Version: 4.0.0-1
+Depends: libc, librt, libpthread, libnl-tiny
+Source: /root/home/src/chaos_calmer/package/network/utils/iproute2
+License: GPL-2.0
+Section: net
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: rtd1295
+Installed-Size: 18422
+Filename: ip-bridge_4.0.0-1_rtd1295.ipk
+Size: 19193
+MD5Sum: 15c852421a60cac566c1d9c9fb305b7f
+SHA256sum: 78771762674560fcc5634c1a79b018c3520c1cba53d1a3773fad2a72f7e13993
+Description:  Bridge configuration utility from iproute2
+
+Package: ip-full
+Version: 4.0.0-1
+Depends: libc, librt, libpthread, libnl-tiny
+Source: /root/home/src/chaos_calmer/package/network/utils/iproute2
+License: GPL-2.0
+Section: net
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: rtd1295
+Installed-Size: 121850
+Filename: ip-full_4.0.0-1_rtd1295.ipk
+Size: 122627
+MD5Sum: 65c173c2fde16fedf52b9d533c048da7
+SHA256sum: bc5abf1e1dc31c6294f29606a5451b567ebadf844f42418521afd5afbbbaf573
+Description:  Routing control utility (Full)
+
+Package: ip
+Version: 4.0.0-1
+Depends: libc, librt, libpthread, libnl-tiny
+Conflicts: ip-full
+Source: /root/home/src/chaos_calmer/package/network/utils/iproute2
+License: GPL-2.0
+Section: net
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: rtd1295
+Installed-Size: 80796
+Filename: ip_4.0.0-1_rtd1295.ipk
+Size: 81655
+MD5Sum: ad6692c91e0a5b31ba062f6ee1105824
+SHA256sum: 84fc3020b13cf5453380978a932141a301bf386d0f632786b77b62ea12653f0a
+Description:  Routing control utility (Minimal)
 
 Package: iwinfo
 Version: 2015-06-01-ade8b1b299cbd5748db1acf80dd3e9f567938371
@@ -467,6 +528,19 @@ Description:  The libevent API provides a mechanism to execute a callback functi
  This package contains the libevent shared library historically
  containing both the core & extra libraries.
 
+Package: libext2fs
+Version: 1.42.12-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/utils/e2fsprogs
+Section: libs
+Architecture: rtd1295
+Installed-Size: 110166
+Filename: libext2fs_1.42.12-1_rtd1295.ipk
+Size: 110275
+MD5Sum: 07d024e2e71193b5e3590e78beef8b71
+SHA256sum: f25329feda806100ae26476348d8f99452784e2e4f54b5984888cefdb84c2b32
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
 Package: libgcc
 Version: 4.9-linaro-1
 Source: /root/home/src/chaos_calmer/package/libs/toolchain
@@ -593,6 +667,21 @@ MD5Sum: 7ed35976d303def9b9ca4b1fe828e99f
 SHA256sum: bf7f9e39af61069f250cf94594706783cf511f7d4de8e39e42cd3fda3295cc57
 Description:  Minimalistic JSON based scripting engine
 
+Package: libltdl
+Version: 2.4-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/libtool
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Architecture: rtd1295
+Installed-Size: 13175
+Filename: libltdl_2.4-1_rtd1295.ipk
+Size: 13879
+MD5Sum: b46b6061954a4ff96336d8856d1142ef
+SHA256sum: 129c4eb77c15ed5e5fbc972dddee0ca9524ab6264cbf0f38c9e36952e1c5c318
+Description:  A generic dynamic object loading library
+
 Package: liblua
 Version: 5.1.5-1
 Depends: libc, librt, libpthread
@@ -627,6 +716,41 @@ SHA256sum: 6478a8b3e4e2648439fea83b8838148d3073cef8f91e68b194b25690c6e7bb15
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
+
+Package: libmnl
+Version: 1.0.3-2
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/libmnl
+License: LGPL-2.1+
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 5893
+Filename: libmnl_1.0.3-2_rtd1295.ipk
+Size: 7110
+MD5Sum: 7af85155e348fab851f140a6389ca936
+SHA256sum: 24f379afe5ba7c6b2efb2c87558debe57f6896b28f21a8f262038a0a427f080a
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
 
 Package: libmount
 Version: 2.25.2-4
@@ -739,6 +863,20 @@ Description:  The aim of the PolarSSL project is to provide a quality, open-sour
  cryptographic library written in C and targeted at embedded systems.
  This package contains the PolarSSL library.
 
+Package: libpopt
+Version: 1.16-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/popt
+License: MIT
+Section: libs
+Architecture: rtd1295
+Installed-Size: 19421
+Filename: libpopt_1.16-1_rtd1295.ipk
+Size: 20111
+MD5Sum: bff0568b5f98d969d06d43f2303c5244
+SHA256sum: 366f6782258f2c4837284beabcb5e9c033569349852439b98e32fd2739704aaf
+Description:  A command line option parsing library
+
 Package: libpthread
 Version: 2.19-1
 Depends: libgcc
@@ -755,6 +893,41 @@ Size: 36802
 MD5Sum: df9ffced9477d36d6de5fff2dda90aeb
 SHA256sum: 2b0e2071fe14d889fb1a7c9d4ac055f50fe711caaff58bc57372f06318b15f85
 Description:  POSIX thread library
+
+Package: libreadline
+Version: 6.3-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/libreadline
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: libs
+Architecture: rtd1295
+Installed-Size: 106722
+Filename: libreadline_6.3-1_rtd1295.ipk
+Size: 105823
+MD5Sum: 55fe5c52e485a70874da7e05af8c6b77
+SHA256sum: 8dea3365b6d8fea2f5343136bde3a5cf7d00ec356316d5d0c414d1633f7d7ac6
+Description:  The Readline library provides a set of functions for use by applications 
+ that allow users to edit command lines as they are typed in. Both Emacs 
+ and vi editing modes are available. The Readline library includes 
+ additional functions to maintain a list of previously-entered command 
+ lines, to recall and perhaps reedit those lines, and perform csh-like 
+ history expansion on previous commands.
+
+Package: librpc
+Version: 2015-04-10-308e9964bfb623773dc0dcc99ef9d18d1551d6ae
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/libs/librpc
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 29526
+Filename: librpc_2015-04-10-308e9964bfb623773dc0dcc99ef9d18d1551d6ae_rtd1295.ipk
+Size: 30262
+MD5Sum: 11c7d97bf76c06460256a4d260403537
+SHA256sum: ff2a36e616002af979012af644bd3f12609c4e129bd01d45606db7909a4230ec
+Description:  uClibc RPC library
 
 Package: librt
 Version: 2.19-1
@@ -1144,6 +1317,25 @@ SHA256sum: 082dd38c2f9e6ac955cfae03848bf3d42b1477be882a5c4a7e3c87038d712256
 Description:  rename will rename the specified files by replacing the first occurrence of
  expression in their name by replacement
 
+Package: resolveip
+Version: 2
+Depends: libc, librt, libpthread
+Source: /root/home/src/chaos_calmer/package/network/utils/resolveip
+License: GPL-2.0
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: rtd1295
+Installed-Size: 2320
+Filename: resolveip_2_rtd1295.ipk
+Size: 3229
+MD5Sum: 5ccf9511235a48af079846058d750e03
+SHA256sum: a7744d71fe3f6f8999154e8eab2d4f034e33850c815b7f6187b9c62b82622802
+Description:  This package contains the small resolveip utility which
+ can be used by scripts to turn host names into numeric
+ IP addresses. It supports IPv4 and IPv6 resolving and
+ has a configurable timeout to guarantee a certain maximum
+ runtime in case of slow or defunct DNS servers.
+
 Package: rpcd-mod-file
 Version: 2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a
 Depends: libc, librt, libpthread, libubus, libubox, rpcd
@@ -1252,6 +1444,21 @@ SHA256sum: 1f836461c4668270a91c516e48ef727831eb571f56645bb12f3254315070210b
 Description:  list the size of a partition, list the partitions on a device, check the
  partitions on a device and repartition a device
 
+Package: ss
+Version: 4.0.0-1
+Depends: libc, librt, libpthread, libnl-tiny
+Source: /root/home/src/chaos_calmer/package/network/utils/iproute2
+License: GPL-2.0
+Section: net
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: rtd1295
+Installed-Size: 30180
+Filename: ss_4.0.0-1_rtd1295.ipk
+Size: 30916
+MD5Sum: 9ae8001b1bb27431624fbb4ff3c00c95
+SHA256sum: c0dcf1881495b05c9926d39a78dbfb913603e97e44d3d516738f6e51d62c2512
+Description:  Socket statistics utility
+
 Package: swap-utils
 Version: 2.25.2-4
 Depends: libc, librt, libpthread, libblkid
@@ -1266,6 +1473,21 @@ Size: 24787
 MD5Sum: a93cdee5ec21a3696b421f04ceeb5e8c
 SHA256sum: b52c28ea1f1e61d2fcdfc35ab943cb2452f340bd058de9de731ba3548ab799d5
 Description:  contains: mkswap, swaplabel
+
+Package: tc
+Version: 4.0.0-1
+Depends: libc, librt, libpthread, kmod-sched-core
+Source: /root/home/src/chaos_calmer/package/network/utils/iproute2
+License: GPL-2.0
+Section: net
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: rtd1295
+Installed-Size: 103136
+Filename: tc_4.0.0-1_rtd1295.ipk
+Size: 103935
+MD5Sum: 251432e7e65ef17ed704a87b708ce8c9
+SHA256sum: daba3e9bfb1dd1c96bc2ff55de658d2983332be25cfd83939e27ef321c39beed
+Description:  Traffic control utility
 
 Package: terminfo
 Version: 5.9-2

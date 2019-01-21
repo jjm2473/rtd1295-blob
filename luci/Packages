@@ -1,3 +1,32 @@
+Package: luci-app-aria2
+Version: 1.0.1-2
+Depends: libc, librt, libpthread, aria2
+Source: /root/home/src/luci/applications/luci-app-aria2
+License: Apache-2.0
+Section: luci
+Maintainer: Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 4303
+Filename: luci-app-aria2_1.0.1-2_all.ipk
+Size: 5096
+MD5Sum: 3cbef9fe9ada3be1594332e14f0bb50c
+SHA256sum: 7fccc6a79a089bcd28228f4271fba73454e5abbcc7de0b9f4f7396986a64d978
+Description:  LuCI Support for Aria2
+
+Package: luci-app-shadowsocks-libev
+Version: git-19.019.17298-b45f1be01-1
+Depends: libc, librt, libpthread
+Source: /root/home/src/luci/applications/luci-app-shadowsocks-libev
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 5928
+Filename: luci-app-shadowsocks-libev_git-19.019.17298-b45f1be01-1_all.ipk
+Size: 6704
+MD5Sum: eb7be4cc3f7f693a9aa2dcc451f4f13f
+SHA256sum: c28909ad7ea169b663d8f3c8890250d873e429da5ee501e27be77a823f3c5228
+Description:  LuCI Support for shadowsocks-libev
+
 Package: luci-app-transmission
 Version: git-18.097.75958-5537d68ec-1
 Depends: libc, librt, libpthread
@@ -23,6 +52,81 @@ Size: 125396
 MD5Sum: 36fefd9e453852e1ed6a46846a6772c1
 SHA256sum: 6ee2ad08bad6ae4b037df702aacf18a0fe93487d2723c13455c4e3a40bb20244
 Description:  LuCI core libraries
+
+Package: luci-i18n-aria2-pt-br
+Version: 1.0.1-2
+Depends: libc, librt, libpthread, luci-app-aria2
+Source: /root/home/src/luci/applications/luci-app-aria2
+License: Apache-2.0
+Section: luci
+Maintainer: Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 2325
+Filename: luci-i18n-aria2-pt-br_1.0.1-2_all.ipk
+Size: 3195
+MD5Sum: b69e43e3683cb6cc7c01e2b1738e93e9
+SHA256sum: 467f159420afb4d1054a023384f8c729b3aaa58f222641d043029353419f41ad
+Description:  Translation for luci-app-aria2 - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-aria2-ru
+Version: 1.0.1-2
+Depends: libc, librt, libpthread, luci-app-aria2
+Source: /root/home/src/luci/applications/luci-app-aria2
+License: Apache-2.0
+Section: luci
+Maintainer: Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 2638
+Filename: luci-i18n-aria2-ru_1.0.1-2_all.ipk
+Size: 3483
+MD5Sum: 57682345ffda5588f3513d828170b7da
+SHA256sum: 32cfed4a1dfd2f0728c6f47432ecab0ddfc3ac6750b6e114fd2d7c799ed5240a
+Description:  Translation for luci-app-aria2 - Русский (Russian)
+
+Package: luci-i18n-aria2-sv
+Version: 1.0.1-2
+Depends: libc, librt, libpthread, luci-app-aria2
+Source: /root/home/src/luci/applications/luci-app-aria2
+License: Apache-2.0
+Section: luci
+Maintainer: Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 1656
+Filename: luci-i18n-aria2-sv_1.0.1-2_all.ipk
+Size: 2506
+MD5Sum: 3987792c0e27c2ae29382c171609c991
+SHA256sum: 7d9e2ad27287eb254778525839411a37c2ec171d46319fb7f57b9a669ccebf3c
+Description:  Translation for luci-app-aria2 - Svenska (Swedish)
+
+Package: luci-i18n-aria2-zh-cn
+Version: 1.0.1-2
+Depends: libc, librt, libpthread, luci-app-aria2
+Source: /root/home/src/luci/applications/luci-app-aria2
+License: Apache-2.0
+Section: luci
+Maintainer: Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 2114
+Filename: luci-i18n-aria2-zh-cn_1.0.1-2_all.ipk
+Size: 2973
+MD5Sum: 56f544586d041f9c1ee012a9431ef44e
+SHA256sum: 9dd916ab320c71a7c3289483c4b49038486848e9ac08e87ccbd562287960eecb
+Description:  Translation for luci-app-aria2 - 中文 (Chinese)
+
+Package: luci-i18n-aria2-zh-tw
+Version: 1.0.1-2
+Depends: libc, librt, libpthread, luci-app-aria2
+Source: /root/home/src/luci/applications/luci-app-aria2
+License: Apache-2.0
+Section: luci
+Maintainer: Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 2126
+Filename: luci-i18n-aria2-zh-tw_1.0.1-2_all.ipk
+Size: 3004
+MD5Sum: d15f932e0d475b24c55b5a9a8ec0d937
+SHA256sum: 24f3e8ca58ca4598d4c9cb8365dd0396a1e63cb99e95778390d82d65b314ad61
+Description:  Translation for luci-app-aria2 - 臺灣華語 (Taiwanese)
 
 Package: luci-i18n-base-ca
 Version: git-18.097.75958-5537d68ec-1
