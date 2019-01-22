@@ -1398,3 +1398,19 @@ MD5Sum: 02105351a262ff99c64c1e0105ce6ba6
 SHA256sum: f64ba9e9299e59d9cc3053944491b95cc271f518c8a59b7d1608bff0ee8178a9
 Description:  Webinterface resources for transmission.
 
+Package: webui-aria2
+Version: 1
+Depends: libc, librt, libpthread
+Source: /root/home/src/openwrt-packages/net/webui-aria2
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 918266
+Filename: webui-aria2_1_all.ipk
+Size: 918628
+MD5Sum: 296b0022c745172a1ea9fc5e3e5299d2
+SHA256sum: f9282a5ad8c09503af2189c79d3fba6c8243199702612c9a7972621b14f8154c
+Description:  The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use.
+
