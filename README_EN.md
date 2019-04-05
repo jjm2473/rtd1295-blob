@@ -1,5 +1,11 @@
 # RTD1295 Openwrt Package Feeds (Package Repo)
+[中文版](/README.md)
 
+**Throw out 15.0! Try lastest OpenWrt, in [here](https://github.com/jjm2473/rtd1295-openwrt18-porting)!**
+
+
+
+------
 *** This feeds is for RTD1295/RTD1296 devices with Openwrt 15.0/15.0.1 running ***
 
 *** Including ZIDOO X9S/Z9S etc. ***

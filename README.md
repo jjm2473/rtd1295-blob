@@ -1,5 +1,10 @@
 # RTD1295 Openwrt 软件源
+[Engilsh version](/README_EN.md)
 
+**放弃15.0吧, 试试最新的OpenWrt, [链接](https://github.com/jjm2473/rtd1295-openwrt18-porting)**
+
+
+-----
 *** 本教程适用于运行Openwrt 15.0/15.0.1的RTD1295/RTD1296方案设备 ***
 
 *** 包括 ZIDOO X9S/Z9S 等 ***
