@@ -1,4 +1,4 @@
-# RTD1295 Openwrt 软件源
+# RTD1295 Openwrt CC 软件源
 [Engilsh version](/README_EN.md)
 
 **放弃15.0吧, 试试最新的OpenWrt, [链接](https://github.com/jjm2473/rtd1295-openwrt18-porting)**
