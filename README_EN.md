@@ -1,7 +1,7 @@
 # RTD1295 Openwrt Package Feeds (Package Repo)
 [中文版](/README.md)
 
-**Throw out 15.0! Try lastest OpenWrt, in [here](https://github.com/jjm2473/rtd1295-openwrt18-porting)!**
+**Throw out 15.0! Try lastest OpenWrt, in [here](https://jjm2473.github.io/nas/2020/08/26/rtd129x-openwrt-1806.en.html)!**
 
 
 
